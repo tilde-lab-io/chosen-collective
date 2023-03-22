@@ -1,0 +1,57 @@
+﻿/* -------------------------------- 
+
+File#: _1_main-footer-v5
+Title: Main Footer v5
+Descr: Footer navigation template
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.footer-v5 {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-v5__popular-link {
+  display: inline-block;
+  padding: var(--space-2xs);
+  background-color: hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.1);
+  border-radius: var(--radius-md);
+  color: var(--color-contrast-medium);
+  line-height: 1;
+  transition: 0.2s;
+}
+.footer-v5__popular-link:hover {
+  color: var(--color-contrast-high);
+  background-color: hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.075);
+}
+
+.footer-v5__back-to-top {
+  color: var(--color-contrast-medium);
+  transition: color 0.2s;
+}
+.footer-v5__back-to-top:hover {
+  color: var(--color-contrast-high);
+}
+
+.footer-v5__link {
+  color: var(--color-contrast-medium);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-v5__link:hover {
+  color: var(--color-contrast-high);
+  text-decoration: underline;
+}
+
+.footer-v5__social-btn {
+  display: block;
+  text-decoration: none;
+  color: var(--color-contrast-medium);
+  transition: color 0.2s;
+}
+.footer-v5__social-btn .icon {
+  display: block;
+}
+.footer-v5__social-btn:hover {
+  color: var(--color-contrast-high);
+}

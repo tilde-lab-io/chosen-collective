@@ -1,0 +1,153 @@
+﻿/* -------------------------------- 
+
+File#: _1_radio-switch
+Title: Radio Switch
+Descr: Custom radio toggle
+Usage: codyhouse.co/license
+
+-------------------------------- */
+:root {
+    --radio-switch-width: 300px;
+    --radio-switch-height: 50px;
+    --radio-switch-padding: 3px;
+    --radio-switch-radius: 50em;
+    --radio-switch-animation-duration: 0.3s;
+}
+
+.radio-switch {
+    position: relative;
+    display: inline-block;
+    padding: var(--radio-switch-padding);
+    border-radius: calc(var(--radio-switch-radius) * 1.4);
+    background-color: var(--color-bg-darker);
+}
+.radio-switch:focus-within, .radio-switch:active {
+    box-shadow: 0 0 0 2px hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.15);
+}
+
+.radio-switch__item {
+    position: relative;
+    display: inline-block;
+    height: calc(var(--radio-switch-height) - 2*var(--radio-switch-padding));
+    width: calc(var(--radio-switch-width)*0.5 - var(--radio-switch-padding));
+}
+
+.radio-switch__label {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radio-switch-radius);
+    cursor: pointer;
+    font-size: var(--text-sm);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all var(--radio-switch-animation-duration);
+}
+.radio-switch__input:checked ~ .radio-switch__label {
+    color: var(--color-white);
+}
+.radio-switch__input:focus ~ .radio-switch__label {
+    background-color: hsl(var(--color-primary-h), var(--color-primary-s), calc(var(--color-primary-l) * 0.6));
+}
+.radio-switch__label :not(*):focus-within, .radio-switch__input:focus ~ .radio-switch__label {
+    background-color: transparent;
+}
+
+.radio-switch__marker {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    border-radius: var(--radio-switch-radius);
+    background-color: var(--color-bg70);
+    height: calc(var(--radio-switch-height) - 2*var(--radio-switch-padding));
+    width: calc(var(--radio-switch-width)*0.5 - var(--radio-switch-padding));
+    box-shadow: var(--shadow-md);
+    transition: -webkit-transform var(--radio-switch-animation-duration);
+    transition: transform var(--radio-switch-animation-duration);
+    transition: transform var(--radio-switch-animation-duration), -webkit-transform var(--radio-switch-animation-duration);
+}
+.radio-switch__input:checked ~ .radio-switch__marker {
+    transform: translateX(100%);
+}
+
+
+/* -------------------------------- 
+
+File#: _2_pricing-table
+Title: Pricing Table
+Descr: A table used to compare prices and features of different products
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.p-table__item {
+    background-color: var(--color-bg-dark);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--inner-glow);
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.p-table__price span {
+    font-size: var(--text-3xl);
+    font-weight: bold;
+}
+.p-table__price i {
+    color: var(--color-contrast-low);
+}
+
+.p-table__features li {
+    margin-bottom: var(--space-xs);
+}
+
+.p-table__switch {
+    display: none;
+}
+
+.p-table--has-switch .p-table__price-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.p-table--has-switch .p-table__price {
+    will-change: transform;
+    transition: transform 0.3s, opacity 0.3s;
+    transition-timing-function: var(--ease-out);
+}
+.p-table--has-switch .p-table__price[data-transition-delay="2nd"] {
+    transition-delay: 0.1s;
+}
+.p-table--has-switch .p-table__price[data-transition-delay="3rd"] {
+    transition-delay: 0.2s;
+}
+.p-table--has-switch .p-table__price--month {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.p-table--has-switch .p-table__price--year {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.p-table--yearly .p-table__price--month {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-100%);
+}
+.p-table--yearly .p-table__price--year {
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+

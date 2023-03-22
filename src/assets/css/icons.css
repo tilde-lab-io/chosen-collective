@@ -1,0 +1,193 @@
+﻿.icon {
+    --size: 1em;
+    font-size: var(--size);
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+    color: inherit;
+    fill: currentColor;
+    line-height: 1;
+    flex-shrink: 0;
+    max-width: initial;
+}
+
+.icon--3xs {
+    --size: 8px;
+}
+
+.icon--2xs {
+    --size: 12px;
+}
+
+.icon--xs {
+    --size: 16px;
+}
+
+.icon--sm {
+    --size: 24px;
+}
+
+.icon--md {
+    --size: 32px;
+}
+
+.icon--lg {
+    --size: 48px;
+}
+
+.icon--xl {
+    --size: 64px;
+}
+
+.icon--2xl {
+    --size: 96px;
+}
+
+.icon--3xl {
+    --size: 128px;
+}
+
+/* rotate the icon infinitely */
+.icon--is-spinning {
+    animation: icon-spin 1s infinite linear;
+}
+
+@keyframes icon-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* SVG symbols - enable icon color corrections */
+.icon use {
+    color: inherit;
+    fill: currentColor;
+}
+
+
+/*--------------------------------
+
+Chosen Collective Icons icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+    font-family: 'Chosen Collective Icons';
+    src: url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.eot');
+    src: url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.eot') format('embedded-opentype'),
+    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff2') format('woff2'),
+    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff') format('woff'),
+    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.ttf') format('truetype'),
+    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.svg') format('svg');
+}
+
+/* base class */
+.ccc-icon {
+    display: inline-block;
+    font: normal normal normal 1em/1 'Chosen Collective Icons';
+    color: var(--color-bg70);
+    flex-shrink: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.ccc-icon-sm {
+    font-size: 0.8em;
+}
+
+.ccc-icon-lg {
+    font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.ccc-icon-16 {
+    font-size: 16px;
+}
+
+.ccc-icon-32 {
+    font-size: 32px;
+}
+
+.ccc-icon-48 {
+    font-size: 48px;
+}
+
+.ccc-icon-64 {
+    font-size: 64px;
+}
+
+.ccc-icon-128 {
+    font-size: 128px;
+}
+
+.ccc-icon-256 {
+    font-size: 256px;
+}
+
+/* rotate the icon infinitely */
+.icon-is-spinning {
+    animation: icon-spin 1s infinite linear;
+}
+
+@keyframes icon-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* transform */
+.icon-rotate-90 {
+    transform: rotate(90deg);
+}
+
+.icon-rotate-180 {
+    transform: rotate(180deg);
+}
+
+.icon-rotate-270 {
+    transform: rotate(270deg);
+}
+
+.icon-flip-y {
+    transform: scaleY(-1);
+}
+
+.icon-flip-x {
+    transform: scaleX(-1);
+}
+
+/* icons */
+.ccc_brandmark::before {
+    content: "\ea09";
+}
+
+.ccc-square-instagram-1::before {
+    content: "\ea0a";
+}
+
+.ccc-facebook-f-1::before {
+    content: "\ea0b";
+}
+
+.ccc-youtube-1::before {
+    content: "\ea0c";
+}
+
+.ccc-instagram-1::before {
+    content: "\ea0d";
+}
+
+.ccc-twitter-1::before {
+    content: "\ea0e";
+}
+
+.ccc-linkedin-in-1::before {
+    content: "\ea0f";
+}
