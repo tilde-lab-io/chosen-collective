@@ -16,6 +16,9 @@ Usage: codyhouse.co/license
     flex-wrap: wrap;
     margin-right: calc(-1 * var(--masonry-grid-gap));
     margin-bottom: calc(-1 * var(--masonry-grid-gap));
+    opacity: 0;
+    transition: opacity 0.4s;
+    max-height: 4070px;
 }
 
 .masonry__item {
@@ -25,11 +28,6 @@ Usage: codyhouse.co/license
     margin-bottom: var(--masonry-grid-gap);
 }
 
-.masonry__list {
-    opacity: 0;
-    transition: opacity 0.4s;
-}
-
 .masonry--loaded .masonry__loader {
     display: none;
 }
@@ -37,12 +35,12 @@ Usage: codyhouse.co/license
     opacity: 1;
 }
 
-@supports (flex-basis: 0px) {
+@supports (flex-basis: 0) {
     .masonry__list {
         flex-direction: column;
     }
     .masonry__item {
-        flex-basis: 0px;
+        flex-basis: 0;
     }
 }
 
