@@ -258,18 +258,19 @@ Math.easeOutElastic = function (t, b, c, d) {
 function resetFocusTabsStyle() {
     window.dispatchEvent(new CustomEvent('initFocusTabs'));
 }
-
-// File#: _1_anim-menu-btn
+﻿// File#: _1_anim-menu-btn
 // Usage: codyhouse.co/license
-(function() {
+(function () {
     var menuBtns = document.getElementsByClassName('js-anim-menu-btn');
-    if( menuBtns.length > 0 ) {
-        for(var i = 0; i < menuBtns.length; i++) {(function(i){
-            initMenuBtn(menuBtns[i]);
-        })(i);}
+    if (menuBtns.length > 0) {
+        for (var i = 0; i < menuBtns.length; i++) {
+            (function (i) {
+                initMenuBtn(menuBtns[i]);
+            })(i);
+        }
 
         function initMenuBtn(btn) {
-            btn.addEventListener('click', function(event){
+            btn.addEventListener('click', function (event) {
                 event.preventDefault();
                 var status = !Util.hasClass(btn, 'anim-menu-btn--state-b');
                 Util.toggleClass(btn, 'anim-menu-btn--state-b', status);
@@ -946,17 +947,17 @@ function resetFocusTabsStyle() {
 
     // init Tbanner obj
     var tBanner = document.getElementsByClassName('js-t-banner');
-    if(tBanner.length > 0) {
-        for( var i = 0; i < tBanner.length; i++) {
+    if (tBanner.length > 0) {
+        for (var i = 0; i < tBanner.length; i++) {
             new Tbanner(tBanner[i]);
         }
     }
 }());
-// File#: _1_masonry
+﻿// File#: _1_masonry
 // Usage: codyhouse.co/license
 
-(function() {
-    var Masonry = function(element) {
+(function () {
+    var Masonry = function (element) {
         this.element = element;
         this.list = this.element.getElementsByClassName('js-masonry__list')[0];
         this.items = this.element.getElementsByClassName('js-masonry__item');
@@ -1847,36 +1848,39 @@ function resetFocusTabsStyle() {
         }
 
         function moveFocus(element) {
-            if( !element ) element = document.getElementsByTagName("body")[0];
+            if (!element) element = document.getElementsByTagName("body")[0];
             element.focus();
             if (document.activeElement !== element) {
-                element.setAttribute('tabindex','-1');
+                element.setAttribute('tabindex', '-1');
                 element.focus();
             }
         };
     }
 }());
-// File#: _2_pricing-table
+﻿// File#: _2_pricing-table
 // Usage: codyhouse.co/license
-(function() {
+(function () {
     // NOTE: you need the js code only when using the --has-switch variation of the pricing table
     // default version does not require js
     var pTable = document.getElementsByClassName('js-p-table--has-switch');
-    if(pTable.length > 0) {
-        for(var i = 0; i < pTable.length; i++) {
-            (function(i){ addPTableEvent(pTable[i]);})(i);
+    if (pTable.length > 0) {
+        for (var i = 0; i < pTable.length; i++) {
+            (function (i) {
+                addPTableEvent(pTable[i]);
+            })(i);
         }
 
         function addPTableEvent(element) {
             var pSwitch = element.getElementsByClassName('js-p-table__switch')[0];
-            if(pSwitch) {
-                pSwitch.addEventListener('change', function(event) {
+            if (pSwitch) {
+                pSwitch.addEventListener('change', function (event) {
                     Util.toggleClass(element, 'p-table--yearly', (event.target.value == 'yearly'));
                 });
             }
         }
     }
 }());
+﻿
 
 
 
@@ -1884,18 +1888,19 @@ function resetFocusTabsStyle() {
 
 
 
-
-// File#: _1_anim-menu-btn
+﻿// File#: _1_anim-menu-btn
 // Usage: codyhouse.co/license
-(function() {
+(function () {
     var menuBtns = document.getElementsByClassName('js-anim-menu-btn');
-    if( menuBtns.length > 0 ) {
-        for(var i = 0; i < menuBtns.length; i++) {(function(i){
-            initMenuBtn(menuBtns[i]);
-        })(i);}
+    if (menuBtns.length > 0) {
+        for (var i = 0; i < menuBtns.length; i++) {
+            (function (i) {
+                initMenuBtn(menuBtns[i]);
+            })(i);
+        }
 
         function initMenuBtn(btn) {
-            btn.addEventListener('click', function(event){
+            btn.addEventListener('click', function (event) {
                 event.preventDefault();
                 var status = !Util.hasClass(btn, 'anim-menu-btn--state-b');
                 Util.toggleClass(btn, 'anim-menu-btn--state-b', status);
@@ -2572,18 +2577,18 @@ function resetFocusTabsStyle() {
 
     // init Tbanner obj
     var tBanner = document.getElementsByClassName('js-t-banner');
-    if(tBanner.length > 0) {
-        for( var i = 0; i < tBanner.length; i++) {
+    if (tBanner.length > 0) {
+        for (var i = 0; i < tBanner.length; i++) {
             new Tbanner(tBanner[i]);
         }
     }
 }());
-
-// File#: _1_masonry
+﻿
+﻿// File#: _1_masonry
 // Usage: codyhouse.co/license
 
-(function() {
-    var Masonry = function(element) {
+(function () {
+    var Masonry = function (element) {
         this.element = element;
         this.list = this.element.getElementsByClassName('js-masonry__list')[0];
         this.items = this.element.getElementsByClassName('js-masonry__item');
@@ -3474,37 +3479,39 @@ function resetFocusTabsStyle() {
         }
 
         function moveFocus(element) {
-            if( !element ) element = document.getElementsByTagName("body")[0];
+            if (!element) element = document.getElementsByTagName("body")[0];
             element.focus();
             if (document.activeElement !== element) {
-                element.setAttribute('tabindex','-1');
+                element.setAttribute('tabindex', '-1');
                 element.focus();
             }
         };
     }
 }());
-// File#: _2_pricing-table
+﻿// File#: _2_pricing-table
 // Usage: codyhouse.co/license
-(function() {
+(function () {
     // NOTE: you need the js code only when using the --has-switch variation of the pricing table
     // default version does not require js
     var pTable = document.getElementsByClassName('js-p-table--has-switch');
-    if(pTable.length > 0) {
-        for(var i = 0; i < pTable.length; i++) {
-            (function(i){ addPTableEvent(pTable[i]);})(i);
+    if (pTable.length > 0) {
+        for (var i = 0; i < pTable.length; i++) {
+            (function (i) {
+                addPTableEvent(pTable[i]);
+            })(i);
         }
 
         function addPTableEvent(element) {
             var pSwitch = element.getElementsByClassName('js-p-table__switch')[0];
-            if(pSwitch) {
-                pSwitch.addEventListener('change', function(event) {
+            if (pSwitch) {
+                pSwitch.addEventListener('change', function (event) {
                     Util.toggleClass(element, 'p-table--yearly', (event.target.value == 'yearly'));
                 });
             }
         }
     }
 }());
-/*!
+﻿/*!
  * Masonry PACKAGED v4.2.2
  * Cascading grid layout library
  * https://masonry.desandro.com
@@ -6009,7 +6016,7 @@ function resetFocusTabsStyle() {
 }));
 
 
-/*!
+﻿/*!
  * imagesLoaded PACKAGED v5.0.0
  * JavaScript is all like "You images are done yet or what?"
  * MIT License
