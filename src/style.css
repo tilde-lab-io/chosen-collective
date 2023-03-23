@@ -1293,7 +1293,7 @@ Usage: codyhouse.co/license
 
 -------------------------------- */
 :root {
-    --f-header-height: 80px;
+    --f-header-height: 70px;
     --f-header-logo-width: 7rem;
 }
 @media (min-width: 64rem) {
@@ -1517,7 +1517,7 @@ Usage: codyhouse.co/license
         background-color: var(--color-bg-light);
         border-radius: var(--radius-md);
         box-shadow: var(--inner-glow), var(--shadow-md);
-        z-index: var(--z-index-popover, 5);
+        z-index: 5;
         /* hide */
         pointer-events: none;
         visibility: hidden;
@@ -1548,8 +1548,16 @@ Usage: codyhouse.co/license
     }
 }
 /* Video background */
+.video-brightness-screen {
+
+}
 .video-brightness-screen video {
-    margin-top: -100px;
+    margin-top: -50px;
+}
+@media (min-width: 48rem) {
+    .video-brightness-screen video {
+        margin-top: -100px;
+    }
 }
 /* -------------------------------- 
 
