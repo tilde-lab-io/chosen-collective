@@ -2431,8 +2431,8 @@ Usage: codyhouse.co/license
     --masonry-grid-gap: var(--space-sm);
     --masonry-col-auto-size: 100%;
 }
-.masonry__loader {
-    display: none;
+.masonry {
+    height: 6840px;    
 }
 .masonry__list {
     display: flex;
@@ -2445,16 +2445,6 @@ Usage: codyhouse.co/license
     width: var(--masonry-col-auto-size);
     margin-right: var(--masonry-grid-gap);
     margin-bottom: var(--masonry-grid-gap);
-}
-.masonry {
-    position: relative;
-}
-.masonry__loader {
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
 }
 .masonry__list {
     opacity: 0;

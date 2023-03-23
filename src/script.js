@@ -618,20 +618,26 @@ function resetFocusTabsStyle() {
         // if slideshow navigation is on -> create navigation HTML and add event listeners
         if(slideshow.options.navigation) {
             // check if navigation has already been included
-            if(slideshow.element.getElementsByClassName('js-slideshow__navigation').length == 0) {
+            if (slideshow.element.getElementsByClassName('js-slideshow__navigation').length !== 0) {
+            } else {
                 var navigation = document.createElement('ol'),
                     navChildren = '';
 
-                var navClasses = slideshow.options.navigationClass+' js-slideshow__navigation';
-                if(slideshow.items.length <= 1) {
+                var navClasses = slideshow.options.navigationClass + ' js-slideshow__navigation';
+                if (slideshow.items.length <= 1) {
                     navClasses = navClasses + ' hide';
                 }
 
                 navigation.setAttribute('class', navClasses);
-                for(var i = 0; i < slideshow.items.length; i++) {
-                    var className = (i == slideshow.selectedSlide) ? 'class="'+slideshow.options.navigationItemClass+' '+slideshow.options.navigationItemClass+'--selected js-slideshow__nav-item"' :  'class="'+slideshow.options.navigationItemClass+' js-slideshow__nav-item"',
-                        navCurrentLabel = (i == slideshow.selectedSlide) ? '<span class="sr-only js-slideshow__nav-current-label">Current Item</span>' : '';
-                    navChildren = navChildren + '<li '+className+'><button class="reset"><span class="sr-only">'+ (i+1) + '</span>'+navCurrentLabel+'</button></li>';
+                for (var i = 0; i < slideshow.items.length; i++) {
+                    var className,
+                        navCurrentLabel = (i === slideshow.selectedSlide) ? '<span class="sr-only js-slideshow__nav-current-label">Current Item</span>' : '';
+                    if (i === slideshow.selectedSlide) {
+                        className = 'class="' + slideshow.options.navigationItemClass + ' ' + slideshow.options.navigationItemClass + '--selected js-slideshow__nav-item"';
+                    } else {
+                        className = 'class="' + slideshow.options.navigationItemClass + ' js-slideshow__nav-item"';
+                    }
+                    navChildren = navChildren + '<li ' + className + '><button class="reset"><span class="sr-only">' + (i + 1) + '</span>' + navCurrentLabel + '</button></li>';
                 }
                 navigation.innerHTML = navChildren;
                 slideshow.element.appendChild(navigation);
@@ -2339,7 +2345,7 @@ Util.osHasReducedMotion = function() {
         };
     }
 }());
-﻿// File#: _2_pricing-table
+// File#: _2_pricing-table
 // Usage: codyhouse.co/license
 (function() {
     // NOTE: you need the js code only when using the --has-switch variation of the pricing table
