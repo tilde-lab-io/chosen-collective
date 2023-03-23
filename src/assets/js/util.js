@@ -1,9 +1,16 @@
 ﻿// @prepros-append ./_home.js
+
 // @prepros-append ./_reset-retreat.js
+
 // @prepros-append ./_reservations.js
+
 // @prepros-append ./_about.js
 
-// Utility function
+// @prepros-append ./masonry.js
+
+// @prepros-append ./images-loaded.js
+
+
 function Util () {}
 
 /* class manipulation functions */
