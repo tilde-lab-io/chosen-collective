@@ -1,0 +1,26 @@
+/* -------------------------------- 
+
+File#: _1_hero
+Title: Hero
+Descr: A full-width callout section
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.hero-services{
+    /* if background image in CSS */
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 60vh;
+}
+
+@media (min-width: 64rem) {
+    .hero-services {
+        background-image: url('');
+        height: 65vh;
+        background-position-y: -150px;
+    }
+}
+
+

@@ -6,7 +6,7 @@ Descr: A full-width callout section
 Usage: codyhouse.co/license
 
 -------------------------------- */
-.hero {
+.hero-about {
     /* if background image in CSS */
     background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
     background-size: cover;
@@ -16,7 +16,7 @@ Usage: codyhouse.co/license
 }
 
 /* --overlay-layer */
-.hero--overlay-layer::after { /* add a layer in between the img/video background and the content */
+.hero-about--overlay-layer::after { /* add a layer in between the img/video background and the content */
     content: "";
     position: absolute;
     top: 0;
@@ -27,7 +27,7 @@ Usage: codyhouse.co/license
 }
 
 @media (min-width: 64rem) {
-    .hero {
+    .hero-about {
         background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
         height: 65vh;
         background-position-y: -150px;

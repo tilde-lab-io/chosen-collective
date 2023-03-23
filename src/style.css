@@ -2031,7 +2031,7 @@ Descr: A full-width callout section
 Usage: codyhouse.co/license
 
 -------------------------------- */
-.hero {
+.hero-about {
     /* if background image in CSS */
     background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
     background-size: cover;
@@ -2040,7 +2040,7 @@ Usage: codyhouse.co/license
     height: 50vh;
 }
 /* --overlay-layer */
-.hero--overlay-layer::after { /* add a layer in between the img/video background and the content */
+.hero-about--overlay-layer::after { /* add a layer in between the img/video background and the content */
     content: "";
     position: absolute;
     top: 0;
@@ -2050,7 +2050,7 @@ Usage: codyhouse.co/license
     z-index: 1;
 }
 @media (min-width: 64rem) {
-    .hero {
+    .hero-about {
         background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
         height: 65vh;
         background-position-y: -150px;
@@ -2387,6 +2387,29 @@ Usage: codyhouse.co/license
 }
 .modal-img-btn__icon-wrapper .icon {
     color: var(--color-white);
+}
+/* -------------------------------- 
+
+File#: _1_hero
+Title: Hero
+Descr: A full-width callout section
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.hero-services{
+    /* if background image in CSS */
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 60vh;
+}
+@media (min-width: 64rem) {
+    .hero-services {
+        background-image: url('');
+        height: 65vh;
+        background-position-y: -150px;
+    }
 }
 /* -------------------------------- 
 
