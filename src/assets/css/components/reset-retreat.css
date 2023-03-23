@@ -10,9 +10,6 @@ Usage: codyhouse.co/license
     --masonry-grid-gap: var(--space-sm);
     --masonry-col-auto-size: 100%;
 }
-.masonry {
-    height: 2623px;    
-}
 
 .masonry__list {
     display: flex;
