@@ -8,7 +8,6 @@
 
 // @prepros-append ./_reservations.js
 
-
 // @prepros-append ./masonry.js
 
 // @prepros-append ./images-loaded.js

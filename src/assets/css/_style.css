@@ -20,3 +20,6 @@
 
 /* utility classes */
 @import 'util.css';
+
+
+@import 'tools/flickity.css';
