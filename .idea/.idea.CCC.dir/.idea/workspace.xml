@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/tools/flickity-fade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/tools/flickity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/flickity-fade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/flickity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddat-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ddat-reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/donate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhw-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/hhw-reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="upload updated media src" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +101,7 @@
       <workItem from="1679520072388" duration="8520000" />
       <workItem from="1679612708542" duration="363000" />
       <workItem from="1679613111856" duration="280000" />
-      <workItem from="1679613411551" duration="33533000" />
+      <workItem from="1679613411551" duration="34272000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -154,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679605547444</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update to testimonials banner started, index.html">
+      <created>1679669238498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679669238498</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upload updated media src">
+      <created>1679669910588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679669910588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +178,9 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="init" />
     <MESSAGE value="Refactor vision-values-mission on index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor vision-values-mission on index.html" />
+    <MESSAGE value="Update to testimonials banner started, index.html" />
+    <MESSAGE value="upload updated media src" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload updated media src" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
