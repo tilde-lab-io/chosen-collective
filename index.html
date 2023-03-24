@@ -104,24 +104,25 @@
 
 <main>
   <header class="hero-video-bg position-relative@md padding-y-0 bg-primary-darker@md">
-    <div
-        class="video-brightness-screen bg-primary-darker opacity-50%@md height-90vh@md overflow-hidden margin-bottom-md">
-      <video aria-hidden="true" autoplay class="block width-100% object-cover" controls muted playsInline poster
-             preload="auto">
-        <img alt="Video Preview"
-             rel="prefetch"
-             src="https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/video-loading-fallback_YcFqVH8HQ.PNG?updatedAt=1679583893609">
+    <div class="video-brightness-screen bg-primary-darker opacity-50%@md height-90vh@md overflow-hidden margin-bottom-md">
+      <img class="object-contain" alt="Video Preview"
+           rel="prefetch"
+           src="https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/video-loading-fallback_YcFqVH8HQ.PNG?updatedAt=1679583893609">
+      <video aria-hidden="true" class="hide width-100% object-cover" autoplay controls muted playsInline poster preload="auto">
         <source
             height="720"
             rel="prefetch"
-            src="/src/assets/media/CCC_masthead_mobile.webm"
+            src="src/assets/media/CCC_masthead_mobile.webm"
+            type="video/webm"
             width="1280"/>
+        <img alt="Video Preview"
+             rel="prefetch"
+             src="https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/video-loading-fallback_YcFqVH8HQ.PNG?updatedAt=1679583893609">
       </video>
     </div>
     
     <section class="container z-index-overlay position-absolute@md top-0 left-0 min-width-100vw height-100%">
-      <div
-          class="padding-x-md position-absolute@md bottom-xl@lg text-left@md padding-left-2xl@md max-width-adaptive-sm">
+      <div class="padding-x-md position-absolute@md bottom-xl@lg text-left@md padding-left-2xl@md max-width-adaptive-sm">
         <div class="text-component text-md@md text-md@lg">
           <div class="margin-bottom-sm padding-x-0@md">
             <h1 class="text-3xl color-primary-light color-white@md margin-bottom-md margin-bottom-0@md">Your Growth
@@ -431,11 +432,7 @@
           <figure class="testimonial-slide width-100% height-100% padding-x-md padding-x-xl@lg flex flex-column flex-center text-center">
             <blockquote class="text-md@md line-height-md">
               <p class="margin-bottom-lg max-width-adaptive-md">
-                I would like to thank you for the workshop you did with us in the Art Department at CSB/SJU. It was very
-                helpful. Previous speakers at CSB/SJU have been insightful, but often in a more introductory way that
-                was
-                intended more for students. I think you addressed the particular needs of our faculty and staff really
-                well
+                I would like to thank you for the workshop you did with us in the Art Department at CSB/SJU. It was very helpful. Previous speakers at CSB/SJU have been insightful, but often in a more introductory way that was intended more for students. I think you addressed the particular needs of our faculty and staff really well
               </p>
             </blockquote>
             <figcaption aria-hidden="true" class="flex flex-column flex-center">
@@ -453,8 +450,7 @@
               <p class="margin-bottom-lg max-width-adaptive-md">
                 I loved learning about different ways that I can implement racial and gender inclusion as a veterinarian
                 and as a person. Your presentation was super helpful and informative and I will absolutely use all of
-                your
-                tips in the future so thank you very much
+                your tips in the future so thank you very much
               </p>
             </blockquote>
             <figcaption aria-hidden="true" class="flex flex-column flex-center">
@@ -463,7 +459,9 @@
                    src="https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Client_Logos/veterinary-business-management-association.webp?updatedAt=1678839196309"
                    width="128">
               <cite class="block text-lg font-bold">Torre Muhlbach, DVM Candidate '23</cite>
-              <span class="block text-md font-italic">Cornell University College of Veterinary Medicine<br/> Veterinary Business Management Association</span>
+              <span class="block text-md font-italic">
+                Cornell University College of Veterinary Medicine<br/> Veterinary Business Management Association
+              </span>
             </figcaption>
           </figure>
       </div>
