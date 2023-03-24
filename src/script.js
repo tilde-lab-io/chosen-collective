@@ -7966,10 +7966,7 @@ var flkty = new Flickity( '.client-testimonials', {
     // options
     initialIndex: 0,
     setGallerySize: false,
-    percentPosition: true,
     wrapAround: true,
-    imagesLoaded: true,
-    lazyLoad: true,
     accessibility: true,
     cellAlign: 'left',
     draggable: true,

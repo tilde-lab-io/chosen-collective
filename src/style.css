@@ -818,6 +818,27 @@ small {
     --spacing: 1.5rem;
   }
 }
+/*Decorative Divider */
+.deco__divider {
+  display: flex;
+  align-items: center;
+}
+.deco__divider-span {
+  display: block;
+  margin: 0 var(--space-xs);
+  height: 10px;
+  width: 10px;
+  transform: rotate(45deg);
+  background-color: var(--color-contrast-lower);
+}
+.deco__divider::before, .deco__divider::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: auto;
+  flex-grow: 1;
+  background-color: var(--color-contrast-lower);
+}
 .icon {
     --size: 1em;
     font-size: var(--size);
@@ -1597,9 +1618,6 @@ Usage: codyhouse.co/license
 .feature-v11__link:hover .icon {
     transform: rotate(0deg);
 }
-.client-testimonials {
-    height:37rem;
-}
 .flickity-button {
     background: #333;
 }
@@ -1608,7 +1626,7 @@ Usage: codyhouse.co/license
 }
 /* icon color */
 .flickity-button-icon {
-    fill: white;
+    fill: var(--color-primary-light);
 }
 .flickity-prev-next-button {
     top: 10px;
@@ -1623,7 +1641,7 @@ Usage: codyhouse.co/license
 }
 /* position dots up a bit */
 .flickity-page-dots {
-    bottom: 10px;
+    bottom: 20px;
 }
 /* dots are lines */
 .flickity-page-dots .dot {
@@ -1633,11 +1651,7 @@ Usage: codyhouse.co/license
     border-radius: 0;
 }
 .flickity-enabled:focus .flickity-viewport {
-    outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-}
-@media (min-width: 32rem) {
-    
 }
 /* -------------------------------- 
 
