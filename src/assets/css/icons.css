@@ -76,12 +76,12 @@ Generated using nucleoapp.com
 -------------------------------- */
 @font-face {
     font-family: 'Chosen Collective Icons';
-    src: url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.eot');
-    src: url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.eot') format('embedded-opentype'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff2') format('woff2'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff') format('woff'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.ttf') format('truetype'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.svg') format('svg');
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot');
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot') format('embedded-opentype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff2') format('woff2'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff') format('woff'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.ttf') format('truetype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.svg') format('svg');
 }
 
 /* base class */

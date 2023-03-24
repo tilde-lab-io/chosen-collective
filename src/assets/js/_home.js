@@ -246,6 +246,8 @@ var flkty = new Flickity( '.client-testimonials', {
     draggable: true,
     adaptiveHeight: false,
     selectedAttraction: 0.2,
-    friction: 0.8
+    friction: 0.8,
+    autoplay: true,
+    prevNextButtons: false
     
 });

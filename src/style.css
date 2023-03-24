@@ -823,7 +823,7 @@ small {
   display: flex;
   align-items: center;
 }
-.deco__divider-span {
+.deco__divider span {
   display: block;
   margin: 0 var(--space-xs);
   height: 10px;
@@ -903,12 +903,12 @@ Generated using nucleoapp.com
 -------------------------------- */
 @font-face {
     font-family: 'Chosen Collective Icons';
-    src: url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.eot');
-    src: url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.eot') format('embedded-opentype'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff2') format('woff2'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff') format('woff'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.ttf') format('truetype'),
-    url('/src/assets/fonts/ccc-icons/Chosen Collective Icons.svg') format('svg');
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot');
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot') format('embedded-opentype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff2') format('woff2'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff') format('woff'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.ttf') format('truetype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.svg') format('svg');
 }
 /* base class */
 .ccc-icon {
@@ -2115,26 +2115,6 @@ Descr: Article template
 Usage: codyhouse.co/license
 
 -------------------------------- */
-.t-article-v4__divider {
-    display: flex;
-    align-items: center;
-}
-.t-article-v4__divider span {
-    display: block;
-    margin: 0 var(--space-xs);
-    height: 10px;
-    width: 10px;
-    transform: rotate(45deg);
-    background-color: var(--color-contrast-lower);
-}
-.t-article-v4__divider::before, .t-article-v4__divider::after {
-    content: "";
-    display: block;
-    height: 1px;
-    width: auto;
-    flex-grow: 1;
-    background-color: var(--color-contrast-lower);
-}
 /* -------------------------------- 
 
 File#: _1_modal-window

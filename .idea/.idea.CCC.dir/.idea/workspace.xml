@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="replaced media type in masthead">
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="updated org logos, index.html">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/typography.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/Chosen Collective Icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/chosen-collective-icons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/Chosen Collective Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/chosen-collective-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/Chosen Collective Icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/chosen-collective-icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/chosen-collective-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/Chosen Collective Icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/chosen-collective-icons.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/js/_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
@@ -110,7 +115,7 @@
       <workItem from="1679520072388" duration="8520000" />
       <workItem from="1679612708542" duration="363000" />
       <workItem from="1679613111856" duration="280000" />
-      <workItem from="1679613411551" duration="40594000" />
+      <workItem from="1679613411551" duration="51317000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -168,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679677614695</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated org logos, index.html">
+      <created>1679679744438</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679679744438</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +217,8 @@
     <MESSAGE value="upload updated media src" />
     <MESSAGE value="html updated, index.html" />
     <MESSAGE value="replaced media type in masthead" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced media type in masthead" />
+    <MESSAGE value="updated org logos, index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated org logos, index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -251,11 +264,6 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/assets/js/_reset-retreat.js</url>
-          <line>406</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/_reservations.js</url>
           <line>20</line>
           <option name="timeStamp" value="35" />
@@ -270,6 +278,36 @@
           <line>7549</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/js/_reset-retreat.js</url>
+          <line>692</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/js/_home.js</url>
+          <line>154</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/js/_reset-retreat.js</url>
+          <line>506</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/js/_reset-retreat.js</url>
+          <line>502</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/js/_reset-retreat.js</url>
+          <line>406</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
