@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="updates @retreats">
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="site-wide update to head, reromove preloading of script.js">
+      <change afterPath="$PROJECT_DIR$/src/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/config.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddat-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ddat-reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/donate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhw-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/hhw-reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/flickity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/flickity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +117,7 @@
       <workItem from="1679520072388" duration="8520000" />
       <workItem from="1679612708542" duration="363000" />
       <workItem from="1679613111856" duration="280000" />
-      <workItem from="1679613411551" duration="70063000" />
+      <workItem from="1679613411551" duration="72919000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -234,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679731809150</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="site-wide update to head, reromove preloading of script.js">
+      <created>1679756627834</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679756627834</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +297,8 @@
     <MESSAGE value="layout update @index" />
     <MESSAGE value="add autoplay to testimonials @index" />
     <MESSAGE value="updates @retreats" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates @retreats" />
+    <MESSAGE value="site-wide update to head, reromove preloading of script.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="site-wide update to head, reromove preloading of script.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,12 +310,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/_home.js</url>
-          <line>2</line>
+          <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/_home.js</url>
-          <line>150</line>
+          <line>154</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -336,7 +355,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <line>7549</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -348,7 +366,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/_home.js</url>
-          <line>154</line>
+          <line>158</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="44" />
         </line-breakpoint>

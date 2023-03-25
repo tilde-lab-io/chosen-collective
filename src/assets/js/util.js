@@ -1,19 +1,4 @@
-﻿// @prepros-prepend ./flickity.js
-
-// @prepros-prepend ./masonry.js
-
-// @prepros-prepend ./images-loaded.js
-
-// @prepros-append ./_home.js
-
-// @prepros-append ./_reset-retreat.js
-
-// @prepros-append ./_reservations.js
-
-// @prepros-append ./_about.js
-
-
-function Util () {}
+﻿function Util () {}
 
 /* class manipulation functions */
 Util.hasClass = function(el, className) {

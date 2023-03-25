@@ -1,4 +1,8 @@
-﻿// File#: _1_anim-menu-btn
+﻿// @prepros-prepend ./util.js
+// @prepros-prepend ./flickity.js
+
+
+// File#: _1_anim-menu-btn
 // Usage: codyhouse.co/license
 (function() {
     var menuBtns = document.getElementsByClassName('js-anim-menu-btn');
@@ -235,17 +239,3 @@
     }
 }());
 
-
-var flkty = new Flickity( '#client-testimonials', {
-    // options
-    initialIndex: 0,
-    setGallerySize: false,
-    wrapAround: true,
-    accessibility: true,
-    cellAlign: 'left',
-    draggable: true,
-    adaptiveHeight: false,
-    selectedAttraction: 0.2,
-    friction: 0.8,
-    autoPlay: 7000,
-});
