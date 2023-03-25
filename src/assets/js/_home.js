@@ -236,7 +236,7 @@
 }());
 
 
-var flkty = new Flickity( '.client-testimonials', {
+var flkty = new Flickity( '#client-testimonials', {
     // options
     initialIndex: 0,
     setGallerySize: false,

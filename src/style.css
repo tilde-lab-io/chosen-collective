@@ -612,7 +612,7 @@ img, video, svg {
 @media screen and (min-width: var(--breakpoint-xl)){
     
 }
-@media screen and (min-width: vatr(--breakpoint-sm)){
+@media screen and (min-width: var(--breakpoint-sm)){
     
 }
 /* templates */
@@ -2124,14 +2124,6 @@ Usage: codyhouse.co/license
         margin-bottom: calc(-1 * var(--masonry-grid-gap));
     }
 }
-/* -------------------------------- 
-
-File#: _2_article-v4
-Title: Article v4
-Descr: Article template
-Usage: codyhouse.co/license
-
--------------------------------- */
 /* -------------------------------- 
 
 File#: _1_modal-window
