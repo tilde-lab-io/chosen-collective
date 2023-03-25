@@ -536,6 +536,9 @@ Usage: codyhouse.co/license
 
 
 
+
+/*Testimonials Section Styles*/
+
 .flickity-button {
     background: var(--color-primary);
 }
@@ -566,7 +569,7 @@ Usage: codyhouse.co/license
 
 /* position dots up a bit */
 .flickity-page-dots {
-    bottom: 20px;
+    bottom: 40px;
 }
 /* dots are lines */
 .flickity-page-dots .dot {

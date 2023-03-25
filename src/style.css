@@ -1632,6 +1632,7 @@ Usage: codyhouse.co/license
 .feature-v11__link:hover .icon {
     transform: rotate(0deg);
 }
+/*Testimonials Section Styles*/
 .flickity-button {
     background: var(--color-primary);
 }
@@ -1657,7 +1658,7 @@ Usage: codyhouse.co/license
 }
 /* position dots up a bit */
 .flickity-page-dots {
-    bottom: 20px;
+    bottom: 40px;
 }
 /* dots are lines */
 .flickity-page-dots .dot {
