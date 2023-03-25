@@ -93,6 +93,13 @@ img, video, svg {
     --text-base-size: 1rem;
     --text-scale-ratio: 1.2;
 }
+:root {
+    --breakpoint-xs: 32rem; /* ~512px*/
+    --breakpoint-sm: 48rem; /* ~768px */
+    --breakpoint-md: 64rem; /* ~1024px */
+    --breakpoint-lg: 80rem; /* ~1280px */
+    --breakpoint-xl: 90rem; /* ~1440px */
+}
 /* variables */
 :root {
     /* spacing */
@@ -590,12 +597,6 @@ img, video, svg {
   --color-contrast-higher-l: 99%;
   --color-contrast-higher: hsl(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l));
 }*/
-/*
---breakpoint-xs: 32rem; !* ~512px*!
---breakpoint-sm: 48rem; !* ~768px *!
---breakpoint-md: 64rem; !* ~1024px *!
---breakpoint-lg: 80rem; !* ~1280px *!
---breakpoint-xl: 90rem; !* ~1440px *!*/
 @media screen and (min-width: var(--breakpoint-sm)){
     
 }
@@ -1580,10 +1581,23 @@ Usage: codyhouse.co/license
     padding: 0;
     overflow: hidden;
 }
-@media (min-width: 48rem) {
+@media (min-width: var(--breakpoint-sm)) {
     .video-brightness-screen video {
         margin-top: -100px;
     }
+}
+@media (min-width: var(--breakpoint-lg)) {
+    .video-brightness-screen img {
+        margin-top: -1000px;
+        overflow: hidden;
+    }
+}
+:root {
+    --breakpoint-xs: 32rem; /* ~512px*/
+    --breakpoint-sm: 48rem; /* ~768px */
+    --breakpoint-md: 64rem; /* ~1024px */
+    --breakpoint-lg: 80rem; /* ~1280px */
+    --breakpoint-xl: 90rem; /* ~1440px */
 }
 /* -------------------------------- 
 
