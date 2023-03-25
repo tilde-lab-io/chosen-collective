@@ -13557,7 +13557,7 @@ var msnry = new Masonry( elem, {
             var pSwitch = element.getElementsByClassName('js-p-table__switch')[0];
             if(pSwitch) {
                 pSwitch.addEventListener('change', function(event) {
-                    Util.toggleClass(element, 'p-table--yearly', (event.target.value == 'yearly'));
+                    Util.toggleClass(element, 'p-table--yearly', (event.target.value === 'yearly'));
                 });
             }
         }

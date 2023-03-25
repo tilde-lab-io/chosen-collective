@@ -1,65 +1,6 @@
-﻿/* -------------------------------- 
-
-File#: _1_masonry
-Title: Masonry
-Descr: Gallery with elements laid out in optimal position based on available vertical space
-Usage: codyhouse.co/license
-
--------------------------------- */
-:root {
-    --masonry-grid-gap: var(--space-sm);
-    --masonry-col-auto-size: 100%;
+﻿.retreats-gallery {
+    height: 2650px;
 }
-
-.masonry__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: calc(-1 * var(--masonry-grid-gap));
-    margin-bottom: calc(-1 * var(--masonry-grid-gap));
-    opacity: 0;
-    transition: opacity 0.4s;
-    max-height: 4070px;
-}
-
-.masonry__item {
-    display: inline-block;
-    width: var(--masonry-col-auto-size);
-    margin-right: var(--masonry-grid-gap);
-    margin-bottom: var(--masonry-grid-gap);
-}
-
-.masonry--loaded .masonry__loader {
-    display: none;
-}
-.masonry--loaded .masonry__list {
-    opacity: 1;
-}
-
-@supports (flex-basis: 0) {
-    .masonry__list {
-        flex-direction: column;
-    }
-    .masonry__item {
-        flex-basis: 0;
-    }
-}
-
-@media (min-width: 64rem) {
-    :root {
-        --masonry-grid-gap: var(--space-sm);
-        --masonry-col-auto-size: 360px;
-    }
-    
-    .masonry__list {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: calc(-1 * var(--masonry-grid-gap));
-        margin-bottom: calc(-1 * var(--masonry-grid-gap));
-    }
-}
-
-
-
 /* -------------------------------- 
 
 File#: _1_modal-window
