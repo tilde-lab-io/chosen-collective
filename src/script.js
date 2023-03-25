@@ -8058,9 +8058,7 @@ var flkty = new Flickity( '.client-testimonials', {
     adaptiveHeight: false,
     selectedAttraction: 0.2,
     friction: 0.8,
-    autoplay: true,
-    prevNextButtons: false
-    
+    autoPlay: 7000,
 });
 ﻿// File#: _1_masonry
 // Usage: codyhouse.co/license

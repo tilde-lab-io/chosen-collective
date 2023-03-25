@@ -537,29 +537,31 @@ Usage: codyhouse.co/license
 
 
 .flickity-button {
-    background: #333;
+    background: var(--color-primary);
 }
 .flickity-button:hover {
-    background: #F90;
+    background: var(--color-primary-light);
+}
+
+.flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.flickity-prev-next-button.previous {
+    left: -10px;
+    bottom: 0;
+}
+
+.flickity-prev-next-button.next {
+    right: -10px;
+    bottom: 0;
 }
 
 /* icon color */
 .flickity-button-icon {
-    fill: var(--color-primary-light);
-}
-
-.flickity-prev-next-button {
-    top: 10px;
-    transform: none;
-}
-
-.flickity-prev-next-button.previous {
-    left: auto;
-    right: 60px;
-}
-
-.flickity-prev-next-button.next {
-    right: 10px;
+    fill: var(--color-white);
 }
 
 /* position dots up a bit */
