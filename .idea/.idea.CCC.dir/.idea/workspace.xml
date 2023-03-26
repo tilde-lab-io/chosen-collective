@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update css">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update @framework, update @index" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +105,7 @@
       <workItem from="1679613411551" duration="92379000" />
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
-      <workItem from="1679862437018" duration="4925000" />
+      <workItem from="1679862437018" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -421,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679865010874</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update @framework, update @index">
+      <created>1679868605424</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1679868605424</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +452,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="html updated, index.html" />
     <MESSAGE value="replaced media type in masthead" />
     <MESSAGE value="updated org logos, index.html" />
     <MESSAGE value="Updates to testimonials @index, updates to framework" />
@@ -476,7 +476,8 @@
     <MESSAGE value="update headers" />
     <MESSAGE value="bug fix to gallery and testimonials" />
     <MESSAGE value="update css" />
-    <option name="LAST_COMMIT_MESSAGE" value="update css" />
+    <MESSAGE value="update @framework, update @index" />
+    <option name="LAST_COMMIT_MESSAGE" value="update @framework, update @index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
