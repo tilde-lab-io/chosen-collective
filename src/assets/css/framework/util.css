@@ -3814,6 +3814,139 @@
   }
 }
 @media (min-width: var(--breakpoint-xs)) {
+  /* opacity */
+  .opacity-0\@xs {
+    opacity: 0;
+  }
+
+  .opacity-5\%\@xs {
+    opacity: 0.05;
+  }
+
+  .opacity-10\%\@xs {
+    opacity: 0.1;
+  }
+
+  .opacity-15\%\@xs {
+    opacity: 0.15;
+  }
+
+  .opacity-20\%\@xs {
+    opacity: 0.2;
+  }
+
+  .opacity-25\%\@xs {
+    opacity: 0.25;
+  }
+
+  .opacity-30\%\@xs {
+    opacity: 0.3;
+  }
+
+  .opacity-40\%\@xs {
+    opacity: 0.4;
+  }
+
+  .opacity-50\%\@xs {
+    opacity: 0.5;
+  }
+
+  .opacity-60\%\@xs {
+    opacity: 0.6;
+  }
+
+  .opacity-70\%\@xs {
+    opacity: 0.7;
+  }
+
+  .opacity-75\%\@xs {
+    opacity: 0.75;
+  }
+
+  .opacity-80\%\@xs {
+    opacity: 0.8;
+  }
+
+  .opacity-85\%\@xs {
+    opacity: 0.85;
+  }
+
+  .opacity-90\%\@xs {
+    opacity: 0.9;
+  }
+
+  .opacity-95\%\@xs {
+    opacity: 0.95;
+  }
+
+  .opacity-100\%\@xs {
+    opacity: 1;
+  }
+
+  .bg-opacity-0\@xs {
+    --bg-opacity: 0;
+  }
+
+  .bg-opacity-5\%\@xs {
+    --bg-opacity: 0.05;
+  }
+
+  .bg-opacity-10\%\@xs {
+    --bg-opacity: 0.1;
+  }
+
+  .bg-opacity-15\%\@xs {
+    --bg-opacity: 0.15;
+  }
+
+  .bg-opacity-20\%\@xs {
+    --bg-opacity: 0.2;
+  }
+
+  .bg-opacity-25\%\@xs {
+    --bg-opacity: 0.25;
+  }
+
+  .bg-opacity-30\%\@xs {
+    --bg-opacity: 0.3;
+  }
+
+  .bg-opacity-40\%\@xs {
+    --bg-opacity: 0.4;
+  }
+
+  .bg-opacity-50\%\@xs {
+    --bg-opacity: 0.5;
+  }
+
+  .bg-opacity-60\%\@xs {
+    --bg-opacity: 0.6;
+  }
+
+  .bg-opacity-70\%\@xs {
+    --bg-opacity: 0.7;
+  }
+
+  .bg-opacity-75\%\@xs {
+    --bg-opacity: 0.75;
+  }
+
+  .bg-opacity-80\%\@xs {
+    --bg-opacity: 0.8;
+  }
+
+  .bg-opacity-85\%\@xs {
+    --bg-opacity: 0.85;
+  }
+
+  .bg-opacity-90\%\@xs {
+    --bg-opacity: 0.9;
+  }
+
+  .bg-opacity-95\%\@xs {
+    --bg-opacity: 0.95;
+  }
+  
   /* grid */
   .grid-col-1\@xs {
     --grid-columns: 1;
@@ -5307,6 +5440,139 @@
   }
 } 
 @media (min-width: 48rem) {
+  /* opacity */
+  .opacity-0\@sm {
+    opacity: 0;
+  }
+
+  .opacity-5\%\@sm {
+    opacity: 0.05;
+  }
+
+  .opacity-10\%\@sm {
+    opacity: 0.1;
+  }
+
+  .opacity-15\%\@sm {
+    opacity: 0.15;
+  }
+
+  .opacity-20\%\@sm {
+    opacity: 0.2;
+  }
+
+  .opacity-25\%\@sm {
+    opacity: 0.25;
+  }
+
+  .opacity-30\%\@sm {
+    opacity: 0.3;
+  }
+
+  .opacity-40\%\@sm {
+    opacity: 0.4;
+  }
+
+  .opacity-50\%\@sm {
+    opacity: 0.5;
+  }
+
+  .opacity-60\%\@sm {
+    opacity: 0.6;
+  }
+
+  .opacity-70\%\@sm {
+    opacity: 0.7;
+  }
+
+  .opacity-75\%\@sm {
+    opacity: 0.75;
+  }
+
+  .opacity-80\%\@sm {
+    opacity: 0.8;
+  }
+
+  .opacity-85\%\@sm {
+    opacity: 0.85;
+  }
+
+  .opacity-90\%\@sm {
+    opacity: 0.9;
+  }
+
+  .opacity-95\%\@sm {
+    opacity: 0.95;
+  }
+
+  .opacity-100\%\@sm {
+    opacity: 1;
+  }
+
+  .bg-opacity-0\@sm {
+    --bg-opacity: 0;
+  }
+
+  .bg-opacity-5\%\@sm {
+    --bg-opacity: 0.05;
+  }
+
+  .bg-opacity-10\%\@sm {
+    --bg-opacity: 0.1;
+  }
+
+  .bg-opacity-15\%\@sm {
+    --bg-opacity: 0.15;
+  }
+
+  .bg-opacity-20\%\@sm {
+    --bg-opacity: 0.2;
+  }
+
+  .bg-opacity-25\%\@sm {
+    --bg-opacity: 0.25;
+  }
+
+  .bg-opacity-30\%\@sm {
+    --bg-opacity: 0.3;
+  }
+
+  .bg-opacity-40\%\@sm {
+    --bg-opacity: 0.4;
+  }
+
+  .bg-opacity-50\%\@sm {
+    --bg-opacity: 0.5;
+  }
+
+  .bg-opacity-60\%\@sm {
+    --bg-opacity: 0.6;
+  }
+
+  .bg-opacity-70\%\@sm {
+    --bg-opacity: 0.7;
+  }
+
+  .bg-opacity-75\%\@sm {
+    --bg-opacity: 0.75;
+  }
+
+  .bg-opacity-80\%\@sm {
+    --bg-opacity: 0.8;
+  }
+
+  .bg-opacity-85\%\@sm {
+    --bg-opacity: 0.85;
+  }
+
+  .bg-opacity-90\%\@sm {
+    --bg-opacity: 0.9;
+  }
+
+  .bg-opacity-95\%\@sm {
+    --bg-opacity: 0.95;
+  }
+  
   .bg-primary-darker\@sm {
     background-color: hsla(var(--color-primary-darker-h), var(--color-primary-darker-s), var(--color-primary-darker-l), var(--bg-opacity, 1));
   }
