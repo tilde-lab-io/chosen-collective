@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_headers" beforeDir="false" afterPath="$PROJECT_DIR$/_headers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/config.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="bug fix to gallery and testimonials">
+      <change beforePath="$PROJECT_DIR$/src/assets/css/_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <workItem from="1679613411551" duration="92379000" />
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
-      <workItem from="1679862437018" duration="1594000" />
+      <workItem from="1679862437018" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -410,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679845693467</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="bug fix to gallery and testimonials">
+      <created>1679864963292</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679864963292</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +440,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Update to testimonials banner started, index.html" />
     <MESSAGE value="upload updated media src" />
     <MESSAGE value="html updated, index.html" />
     <MESSAGE value="replaced media type in masthead" />
@@ -465,7 +464,8 @@
     <MESSAGE value="update @index" />
     <MESSAGE value="update @index&#10;&#10;Signed-off-by: tayallendev &lt;96593039+tayallendev@users.noreply.github.com&gt;" />
     <MESSAGE value="update headers" />
-    <option name="LAST_COMMIT_MESSAGE" value="update headers" />
+    <MESSAGE value="bug fix to gallery and testimonials" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix to gallery and testimonials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
