@@ -450,7 +450,7 @@ function resetFocusTabsStyle() {
         // set listeners array
         var listeners = events[ eventName ] = events[ eventName ] || [];
         // only add once
-        if ( listeners.indexOf( listener ) == -1 ) {
+        if ( listeners.indexOf( listener ) === -1 ) {
             listeners.push( listener );
         }
 
@@ -480,7 +480,7 @@ function resetFocusTabsStyle() {
             return;
         }
         var index = listeners.indexOf( listener );
-        if ( index != -1 ) {
+        if ( index !== -1 ) {
             listeners.splice( index, 1 );
         }
 

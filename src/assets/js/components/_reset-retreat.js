@@ -636,13 +636,3 @@
     }
 }());
 
-var elem = document.querySelector('#masonry-grid');
-var msnry = new Masonry( elem, {
-    // options
-    itemSelector: '.masonry-grid-item',
-    fitWith: true,
-    columnWidth: 414.66,
-    gutter: 15,
-    transitionDuration: '0.2s',
-    stagger: 30
-});

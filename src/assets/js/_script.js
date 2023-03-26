@@ -1,22 +1,23 @@
-// @prepros-prepend ./util.js
+// @prepros-prepend ./components/_util.js
 
-// @prepros-prepend ./flickity.js
+// @prepros-prepend ./components/_home.js
 
-// @prepros-prepend ./masonry.js
+// @prepros-prepend ./components/_about.js
 
-// @prepros-prepend ./images-loaded.js
+// @prepros-prepend ./components/_reset-retreat.js
 
-// @prepros-prepend ./_home.js
+// @prepros-prepend ./components/_reservations.js
 
-// @prepros-prepend ./_about.js
+// @prepros-prepend ./tools/flickity.js
 
-// @prepros-prepend ./_reset-retreat.js
+// @prepros-prepend ./tools/masonry.js
 
-// @prepros-prepend ./_reservations.js
+// @prepros-prepend ./tools/images-loaded.js
 
 
-/* Start of custom JS */
-var flkty = new Flickity('#client-testimonials', {
+
+/* Initializers */
+var flkty = new Flickity('.client-testimonials', {
     // options
     initialIndex: 0,
     setGallerySize: false,
@@ -28,4 +29,14 @@ var flkty = new Flickity('#client-testimonials', {
     selectedAttraction: 0.2,
     friction: 0.8,
     autoPlay: 7000,
+});
+
+var msnry = new Masonry( '.masonry-grid', {
+    // options
+    itemSelector: '.masonry-grid-item',
+    fitWith: true,
+    columnWidth: 414.66,
+    gutter: 15,
+    transitionDuration: '0.2s',
+    stagger: 30
 });
