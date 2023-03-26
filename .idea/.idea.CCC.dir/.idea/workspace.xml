@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update @framework, update @index" />
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update headers">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +107,7 @@
       <workItem from="1679613411551" duration="92379000" />
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
-      <workItem from="1679862437018" duration="5263000" />
+      <workItem from="1679862437018" duration="6148000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -422,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679868605424</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update headers">
+      <created>1679868965873</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1679868965873</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,11 +482,11 @@
     <MESSAGE value="remove feedback widget" />
     <MESSAGE value="update @index" />
     <MESSAGE value="update @index&#10;&#10;Signed-off-by: tayallendev &lt;96593039+tayallendev@users.noreply.github.com&gt;" />
-    <MESSAGE value="update headers" />
     <MESSAGE value="bug fix to gallery and testimonials" />
     <MESSAGE value="update css" />
     <MESSAGE value="update @framework, update @index" />
-    <option name="LAST_COMMIT_MESSAGE" value="update @framework, update @index" />
+    <MESSAGE value="update headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="update headers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
