@@ -18,7 +18,9 @@
 
 /* Initializers */
 var carousel = document.querySelector('.client-testimonials');
-var flkty = new Flickity(carousel, {
+var flkty;
+
+flkty= new Flickity(carousel, {
     // options
     initialIndex: 0,
     setGallerySize: false,
@@ -33,13 +35,16 @@ var flkty = new Flickity(carousel, {
 });
 
 
-var elemMasonry = document.querySelector('.masonry-grid');
-var msnry = new Masonry( elemMasonry, {
-    // options
-    itemSelector: '.masonry-grid-item',
-    fitWith: true,
-    columnWidth: 414.66,
-    gutter: 15,
-    transitionDuration: '0.2s',
-    stagger: 30
+var grid = document.querySelector('.masonry-grid');
+var msnry;
+imagesLoaded( grid, function() {
+    // init Isotope after all images have loaded
+    msnry = new Masonry( grid, {
+        itemSelector: '.masonry-grid-item',
+        fitWith: true,
+        columnWidth: 414.66,
+        gutter: 15,
+        transitionDuration: '0.2s',
+        stagger: 30
+    });
 });

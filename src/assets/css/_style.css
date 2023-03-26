@@ -23,3 +23,7 @@
 
 
 @import 'tools/flickity.css';
+
+.grid-sizer {
+    width: 414.66px;
+}
