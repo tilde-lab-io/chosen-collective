@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="bug fix @index, remove defer">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/framework/forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddat-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ddat-reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/article.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/featured.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/hero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/pre-header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/testimonials.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/config.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/typography.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_reservations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_reservations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_reset-retreat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_reset-retreat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/flickity-fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/flickity-fade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/flickity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/flickity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/images-loaded.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/images-loaded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/masonry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/masonry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +102,7 @@
       <workItem from="1679520072388" duration="8520000" />
       <workItem from="1679612708542" duration="363000" />
       <workItem from="1679613111856" duration="280000" />
-      <workItem from="1679613411551" duration="91261000" />
+      <workItem from="1679613411551" duration="92379000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -304,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679773665223</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update @reservations">
+      <created>1679791399997</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679791399997</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,9 +328,9 @@
     <MESSAGE value="site-wide updates to head" />
     <MESSAGE value="added: sourcemap v1" />
     <MESSAGE value="Update @retreats, begin gallery bug fixes; cleaned files project-wide" />
-    <MESSAGE value="update @reservations" />
     <MESSAGE value="bug fix @index, remove defer" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix @index, remove defer" />
+    <MESSAGE value="update @reservations" />
+    <option name="LAST_COMMIT_MESSAGE" value="update @reservations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
