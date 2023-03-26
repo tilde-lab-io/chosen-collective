@@ -22,6 +22,7 @@
         <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
+    <option name="SIGN_OFF_COMMIT" value="true" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -37,7 +38,6 @@
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Chosen Collective(6).zip/style-guide/src/style-2.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Chosen Collective(6).zip/style-guide/src/style-3.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/script.js.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +57,7 @@
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -103,6 +103,7 @@
       <workItem from="1679612708542" duration="363000" />
       <workItem from="1679613111856" duration="280000" />
       <workItem from="1679613411551" duration="92379000" />
+      <workItem from="1679791935105" duration="13085000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -279,7 +280,112 @@
       <option name="project" value="LOCAL" />
       <updated>1679791399997</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update header">
+      <created>1679792015557</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679792015557</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bug fix">
+      <created>1679796466289</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679796466289</updated>
+    </task>
+    <task id="LOCAL-00028" summary="activated feedback widget">
+      <created>1679806839311</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679806839312</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update headers">
+      <created>1679807798640</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679807798640</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update headers">
+      <created>1679807986379</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679807986379</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update headers">
+      <created>1679808869010</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679808869010</updated>
+    </task>
+    <task id="LOCAL-00032" summary="remove feedback widget">
+      <created>1679811308065</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679811308065</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update headers">
+      <created>1679812447117</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679812447117</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update headers">
+      <created>1679812869762</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679812869762</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update headers">
+      <created>1679813060836</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679813060836</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update headers">
+      <created>1679813165056</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679813165056</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update headers">
+      <created>1679814334404</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679814334404</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update @index">
+      <created>1679841587526</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679841587526</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update @index&#10;&#10;Signed-off-by: tayallendev &lt;96593039+tayallendev@users.noreply.github.com&gt;">
+      <created>1679841614596</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1679841614596</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update @index&#10;&#10;Signed-off-by: tayallendev &lt;96593039+tayallendev@users.noreply.github.com&gt;">
+      <created>1679841736627</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1679841736627</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,9 +415,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="init commit" />
-    <MESSAGE value="init" />
-    <MESSAGE value="Refactor vision-values-mission on index.html" />
     <MESSAGE value="Update to testimonials banner started, index.html" />
     <MESSAGE value="upload updated media src" />
     <MESSAGE value="html updated, index.html" />
@@ -330,19 +433,26 @@
     <MESSAGE value="Update @retreats, begin gallery bug fixes; cleaned files project-wide" />
     <MESSAGE value="bug fix @index, remove defer" />
     <MESSAGE value="update @reservations" />
-    <option name="LAST_COMMIT_MESSAGE" value="update @reservations" />
+    <MESSAGE value="update header" />
+    <MESSAGE value="bug fix" />
+    <MESSAGE value="activated feedback widget" />
+    <MESSAGE value="remove feedback widget" />
+    <MESSAGE value="update headers" />
+    <MESSAGE value="update @index" />
+    <MESSAGE value="update @index&#10;&#10;Signed-off-by: tayallendev &lt;96593039+tayallendev@users.noreply.github.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="update @index&#10;&#10;Signed-off-by: tayallendev &lt;96593039+tayallendev@users.noreply.github.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/components/_home.js</url>
-          <line>6</line>
+          <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/components/_home.js</url>
-          <line>154</line>
+          <line>150</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -371,50 +481,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/components/_reset-retreat.js</url>
           <line>510</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/components/_home.js</url>
-          <line>158</line>
-          <properties lambdaOrdinal="-1" />
+          <line>154</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/components/_reset-retreat.js</url>
           <line>324</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/components/_reset-retreat.js</url>
           <line>320</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/assets/js/components/_reset-retreat.js</url>
           <line>224</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <line>277</line>
-          <properties lambdaOrdinal="-1" />
+          <line>1176</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <line>4870</line>
-          <properties lambdaOrdinal="-1" />
+          <line>5769</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/js/components/_home.js</url>
+          <line>24</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
