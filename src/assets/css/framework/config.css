@@ -38,7 +38,7 @@
     /* font family */
     --font-primary: 'Noto Sans', system-ui;
     --font-primary-alt: 'Atkinson Hyperlegible', system-ui;
-    --font-header: 'Carelia', cursive;
+    --font-header: 'Carelia', serif;
 
     /* font size */
     --text-base-size: 1rem;

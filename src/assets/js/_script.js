@@ -1,23 +1,24 @@
-// @prepros-prepend ./components/_util.js
+//@prepros-prepend ./components/_util.js
 
-// @prepros-prepend ./components/_home.js
+//@prepros-prepend ./components/_home.js
 
-// @prepros-prepend ./components/_about.js
+//@prepros-prepend ./components/_about.js
 
-// @prepros-prepend ./components/_reset-retreat.js
+//@prepros-prepend ./components/_reset-retreat.js
 
-// @prepros-prepend ./components/_reservations.js
+//@prepros-prepend ./components/_reservations.js
 
-// @prepros-prepend ./tools/flickity.js
+//@prepros-prepend ./tools/flickity.js
 
-// @prepros-prepend ./tools/masonry.js
+//@prepros-prepend ./tools/masonry.js
 
-// @prepros-prepend ./tools/images-loaded.js
+//@prepros-prepend ./tools/images-loaded.js
 
 
 
 /* Initializers */
-var flkty = new Flickity('.client-testimonials', {
+var carousel = document.querySelector('.client-testimonials');
+var flkty = new Flickity(carousel, {
     // options
     initialIndex: 0,
     setGallerySize: false,
@@ -31,7 +32,9 @@ var flkty = new Flickity('.client-testimonials', {
     autoPlay: 7000,
 });
 
-var msnry = new Masonry( '.masonry-grid', {
+
+var elemMasonry = document.querySelector('.masonry-grid');
+var msnry = new Masonry( elemMasonry, {
     // options
     itemSelector: '.masonry-grid-item',
     fitWith: true,

@@ -1,8 +1,4 @@
-﻿// @prepros-prepend ./util.js
-// @prepros-prepend ./flickity.js
-
-
-// File#: _1_anim-menu-btn
+﻿// File#: _1_anim-menu-btn
 // Usage: codyhouse.co/license
 (function() {
     var menuBtns = document.getElementsByClassName('js-anim-menu-btn');
