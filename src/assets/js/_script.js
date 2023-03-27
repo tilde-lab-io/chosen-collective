@@ -4,6 +4,8 @@
 
 //@prepros-prepend ./components/_about.js
 
+//@prepros-prepend ./components/_services.js
+
 //@prepros-prepend ./components/_reset-retreat.js
 
 //@prepros-prepend ./components/_reservations.js
@@ -15,14 +17,15 @@
 //@prepros-prepend ./tools/images-loaded.js
 
 
-
 /* Initializers */
 var carousel = document.querySelector('.client-testimonials');
 var flkty;
 
-flkty= new Flickity(carousel, {
+flkty = new Flickity(carousel, {
     // options
+    cellSelector: '.testimonial-slide',
     initialIndex: 0,
+    prevNextButtons: false,
     setGallerySize: false,
     wrapAround: true,
     accessibility: true,
@@ -37,9 +40,9 @@ flkty= new Flickity(carousel, {
 
 var grid = document.querySelector('.masonry-grid');
 var msnry;
-imagesLoaded( grid, function() {
+imagesLoaded(grid, function () {
     // init Isotope after all images have loaded
-    msnry = new Masonry( grid, {
+    msnry = new Masonry(grid, {
         itemSelector: '.masonry-grid-item',
         fitWith: true,
         columnWidth: 414.66,

@@ -5,11 +5,11 @@ Generated using nucleoapp.com
 
 -------------------------------- */
 @font-face {
-  font-family: 'Chosen Collective Icons';
-  src: url('../../fonts/Chosen Collective Icons.eot');
-  src: url('../../fonts/Chosen Collective Icons.eot') format('embedded-opentype'), url('../../fonts/Chosen Collective Icons.woff2') format('woff2'), url('../../fonts/Chosen Collective Icons.woff') format('woff'), url('../../fonts/Chosen Collective Icons.ttf') format('truetype'), url('../../fonts/Chosen Collective Icons.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Chosen Collective Icons';
+    src: url('../../fonts/Chosen Collective Icons.eot');
+    src: url('../../fonts/Chosen Collective Icons.eot') format('embedded-opentype'), url('../../fonts/Chosen Collective Icons.woff2') format('woff2'), url('../../fonts/Chosen Collective Icons.woff') format('woff'), url('../../fonts/Chosen Collective Icons.ttf') format('truetype'), url('../../fonts/Chosen Collective Icons.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* --------------------------------
@@ -19,11 +19,11 @@ Reset
 -------------------------------- */
 
 *, *::after, *::before {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 * {
-  font: inherit;
+    font: inherit;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -35,43 +35,43 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, hr {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: white;
-  font-family: system-ui, sans-serif;
-  color: hsl(240, 4%, 20%);
-  padding: 1em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    font-family: system-ui, sans-serif;
+    color: hsl(240, 4%, 20%);
+    padding: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main, form legend {
-  display: block;
+    display: block;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 button, input, textarea, select {
-  margin: 0;
+    margin: 0;
 }
 
 a {
-  color: hsl(230, 93%, 66%);
+    color: hsl(230, 93%, 66%);
 }
 
 /* --------------------------------
@@ -80,84 +80,85 @@ Main components
 
 -------------------------------- */
 header {
-  text-align: center;
-  margin: 3em auto;
+    text-align: center;
+    margin: 3em auto;
 }
 
 header h1 {
-  font-size: 2.6rem;
-  font-weight: 600;
+    font-size: 2.6rem;
+    font-weight: 600;
 }
 
 header p {
-  font-size: 1rem;
-  margin-top: 1em;
-  color: hsla(0, 0%, 0%, 0.5);
+    font-size: 1rem;
+    margin-top: 1em;
+    color: hsla(0, 0%, 0%, 0.5);
 }
 
 ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul li {
-  border-radius: .4em;
-  transition: background-color .2s;
-  user-select: none;
-  overflow: hidden;
-  text-align: center;
-  padding: 1em;
+    border-radius: .4em;
+    transition: background-color .2s;
+    user-select: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 1em;
 }
 
 ul li:hover {
-  background: hsla(0, 0%, 0%, 0.05);
+    background: hsla(0, 0%, 0%, 0.05);
 }
 
 ul p, ul em, ul input {
-  display: block;
-  font-size: 0.75rem;
-  color: hsla(0, 0%, 0%, 0.5);
-  user-select: auto;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  cursor: pointer;
-  max-width: 6rem;
+    display: block;
+    font-size: 0.75rem;
+    color: hsla(0, 0%, 0%, 0.5);
+    user-select: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    max-width: 6rem;
 }
 
 ul p {
-  padding: 8px 0 4px;
+    padding: 8px 0 4px;
 }
 
 ul p::selection, ul em::selection {
-  background: hsl(230, 93%, 66%);
-  color: #fff;
+    background: hsl(230, 93%, 66%);
+    color: #fff;
 }
 
 ul p::-moz-selection, ul em::-moz-selection {
-  background: hsl(230, 93%, 66%);
-  color: #fff;
+    background: hsl(230, 93%, 66%);
+    color: #fff;
 }
 
 ul em {
-  margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 ul em::before {
-  content: '[';
+    content: '[';
 }
+
 ul em::after {
-  content: ']';
+    content: ']';
 }
 
 ul input {
-  text-align: center;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  outline: none;
-  font-family: auto;
+    text-align: center;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-family: auto;
 }
 
 /* --------------------------------
@@ -166,13 +167,13 @@ icons
 
 -------------------------------- */
 .icon {
-  display: inline-block;
-  font: normal normal normal 32px/1 'Chosen Collective Icons';
-  speak: none;
-  text-transform: none;
-  /* Better Font Rendering */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font: normal normal normal 32px/1 'Chosen Collective Icons';
+    speak: none;
+    text-transform: none;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /*------------------------
@@ -180,30 +181,30 @@ icons
 -------------------------*/
 
 .ccc-ccc_brandmark::before {
-  content: "\ea09";
+    content: "\ea09";
 }
 
 .ccc-square-instagram-1::before {
-  content: "\ea0a";
+    content: "\ea0a";
 }
 
 .ccc-facebook-f-1::before {
-  content: "\ea0b";
+    content: "\ea0b";
 }
 
 .ccc-youtube-1::before {
-  content: "\ea0c";
+    content: "\ea0c";
 }
 
 .ccc-instagram-1::before {
-  content: "\ea0d";
+    content: "\ea0d";
 }
 
 .ccc-twitter-1::before {
-  content: "\ea0e";
+    content: "\ea0e";
 }
 
 .ccc-linkedin-in-1::before {
-  content: "\ea0f";
+    content: "\ea0f";
 }
 

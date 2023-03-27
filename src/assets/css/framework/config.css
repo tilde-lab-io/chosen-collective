@@ -9,6 +9,7 @@
     src: url("/src/assets/fonts/carelia-upright/carelia-upright.woff") format('woff');
     src: url("/src/assets/fonts/carelia-upright/carelia-upright.woff2") format('woff2');
 }
+
 /* Body */
 @font-face {
     font-display: swap;
@@ -21,6 +22,7 @@
     src: url("/src/assets/fonts/noto/noto-sans-v27-latin-regular.woff") format('woff');
     src: url("/src/assets/fonts/noto/noto-sans-v27-latin-regular.woff2") format('woff2');
 }
+
 /* Body alt*/
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -184,7 +186,7 @@
     --color-accent-lighter-s: 61%;
     --color-accent-lighter-l: 74%;
     --color-accent-lighter: hsl(var(--color-accent-lighter-h), var(--color-accent-lighter-s), var(--color-accent-lighter-l));
-    
+
     /* Background */
     --color-bg30-darker-h: 60;
     --color-bg30-darker-s: 37%;
@@ -299,7 +301,7 @@
     --color-contrast-low: hsl(var(--color-contrast-low-h), var(--color-contrast-low-s), var(--color-contrast-low-l));
 
     --color-contrast-medium-h: 228;
-    --color-contrast-medium-s:  4%;
+    --color-contrast-medium-s: 4%;
     --color-contrast-medium-l: 47%;
     --color-contrast-medium: hsl(var(--color-contrast-medium-h), var(--color-contrast-medium-s), var(--color-contrast-medium-l));
 
@@ -554,23 +556,25 @@
 }*/
 
 
+@media screen and (min-width: var(--breakpoint-sm)) {
 
-
-@media screen and (min-width: var(--breakpoint-sm)){
-    
 }
-@media screen and (min-width: var(--breakpoint-md)){
+
+@media screen and (min-width: var(--breakpoint-md)) {
     .color-accent\@md {
         --color-accent: hsl(var(--color-accent-h), var(--color-accent-s), var(--color-accent-l));
     }
-    
+
 }
-@media screen and (min-width: var(--breakpoint-lg)){
-    
+
+@media screen and (min-width: var(--breakpoint-lg)) {
+
 }
-@media screen and (min-width: var(--breakpoint-xl)){
-    
+
+@media screen and (min-width: var(--breakpoint-xl)) {
+
 }
-@media screen and (min-width: var(--breakpoint-sm)){
-    
+
+@media screen and (min-width: var(--breakpoint-sm)) {
+
 }

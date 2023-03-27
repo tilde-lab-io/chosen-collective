@@ -1,5 +1,4 @@
-﻿
-/* -------------------------------- 
+﻿/* -------------------------------- 
 
 File#: _1_anim-menu-btn
 Title: Animated Menu Button
@@ -464,11 +463,13 @@ Usage: codyhouse.co/license
 
 /* Video background */
 .hero-video-bg {
-    
+
 }
+
 .video-brightness-screen {
 
 }
+
 .video-brightness-screen video {
     margin: -25px 0;
     padding: 0;
@@ -533,56 +534,6 @@ Usage: codyhouse.co/license
 .feature-v11__link:hover .icon {
     transform: rotate(0deg);
 }
-
-
-
-
-/*Testimonials Section Styles*/
-
-.flickity-button {
-    background: var(--color-primary);
-}
-.flickity-button:hover {
-    background: var(--color-primary-light);
-}
-
-.flickity-prev-next-button {
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-.flickity-prev-next-button.previous {
-    left: -10px;
-    bottom: 0;
-}
-
-.flickity-prev-next-button.next {
-    right: -10px;
-    bottom: 0;
-}
-
-/* icon color */
-.flickity-button-icon {
-    fill: var(--color-white);
-}
-
-/* position dots up a bit */
-.flickity-page-dots {
-    bottom: 40px;
-}
-/* dots are lines */
-.flickity-page-dots .dot {
-    height: 4px;
-    width: 40px;
-    margin: 0;
-    border-radius: 0;
-}
-
-.flickity-enabled:focus .flickity-viewport {
-    outline: 5px auto -webkit-focus-ring-color;
-}
-
 
 
 /* -------------------------------- 

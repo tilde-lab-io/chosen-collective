@@ -11,10 +11,10 @@ $ccc-font-path: "../fonts" !default;
   font-family: 'Chosen Collective Icons';
   src: url('#{$ccc-font-path}/Chosen Collective Icons.eot');
   src: url('#{$ccc-font-path}/Chosen Collective Icons.eot') format('embedded-opentype'),
-       url('#{$ccc-font-path}/Chosen Collective Icons.woff2') format('woff2'),
-       url('#{$ccc-font-path}/Chosen Collective Icons.woff') format('woff'),
-       url('#{$ccc-font-path}/Chosen Collective Icons.ttf') format('truetype'),
-       url('#{$ccc-font-path}/Chosen Collective Icons.svg') format('svg');
+  url('#{$ccc-font-path}/Chosen Collective Icons.woff2') format('woff2'),
+  url('#{$ccc-font-path}/Chosen Collective Icons.woff') format('woff'),
+  url('#{$ccc-font-path}/Chosen Collective Icons.ttf') format('truetype'),
+  url('#{$ccc-font-path}/Chosen Collective Icons.svg') format('svg');
 }
 
 /* base class */
@@ -60,35 +60,35 @@ $ccc-font-path: "../fonts" !default;
 }
 
 /* transform */
-.icon-rotate-90  {
-	transform: rotate(90deg);
+.icon-rotate-90 {
+  transform: rotate(90deg);
 }
 
 .icon-rotate-180 {
-	transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .icon-rotate-270 {
-	transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .icon-flip-y {
-	transform: scaleY(-1);
+  transform: scaleY(-1);
 }
 
 .icon-flip-x {
-	transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /* icons */
 $icons: (
-  'ccc_brandmark': 'ea09',
-  'square-instagram-1': 'ea0a',
-  'facebook-f-1': 'ea0b',
-  'youtube-1': 'ea0c',
-  'instagram-1': 'ea0d',
-  'twitter-1': 'ea0e',
-  'linkedin-in-1': 'ea0f',
+        'ccc_brandmark': 'ea09',
+        'square-instagram-1': 'ea0a',
+        'facebook-f-1': 'ea0b',
+        'youtube-1': 'ea0c',
+        'instagram-1': 'ea0d',
+        'twitter-1': 'ea0e',
+        'linkedin-in-1': 'ea0f',
 );
 
 @function unicode($str) {

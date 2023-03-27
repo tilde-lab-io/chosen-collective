@@ -74,6 +74,7 @@ Usage: codyhouse.co/license
     object-position: center;
     height: 100%;
 }
+
 .djd {
     height: 350px;
 }
@@ -97,6 +98,7 @@ Usage: codyhouse.co/license
     padding: var(--space-sm);
     margin-top: auto;
 }
+
 .card__footer span {
     display: inline-block;
     font-size: var(--text-sm);
@@ -106,12 +108,14 @@ Usage: codyhouse.co/license
     opacity: 0;
     transition: transform 0.3s, opacity 0.3s;
 }
+
 .card__footer .icon {
     --size: 16px;
     display: block;
     color: var(--color-contrast-higher);
     transition: 0.3s;
 }
+
 .card__footer::before {
     content: "";
     width: 100%;
@@ -129,9 +133,11 @@ Usage: codyhouse.co/license
     transform: translateY(0);
     opacity: 1;
 }
+
 .card:hover .card__footer .icon {
     color: var(--color-primary);
 }
+
 .card:hover .card__footer::before {
     transform: scaleX(1);
 }
@@ -141,11 +147,11 @@ Usage: codyhouse.co/license
     .card__img-container {
         height: 440px;
     }
+
     .djd {
         height: 440px;
     }
 }
-
 
 
 /* -------------------------------- 
@@ -166,6 +172,7 @@ Usage: codyhouse.co/license
     opacity: 0;
     visibility: hidden;
 }
+
 .modal:not(.modal--is-visible) {
     pointer-events: none;
     background-color: transparent;
@@ -183,6 +190,7 @@ Usage: codyhouse.co/license
     border-radius: 50%;
     transition: 0.2s;
 }
+
 .modal__close-btn .icon {
     display: block;
     margin: auto;
@@ -199,13 +207,16 @@ Usage: codyhouse.co/license
     background-color: hsla(var(--color-black-h), var(--color-black-s), var(--color-black-l), 0.9);
     transition: 0.2s;
 }
+
 .modal__close-btn--outer .icon {
     color: var(--color-white); /* icon color */
     transition: transform 0.3s var(--ease-out-back);
 }
+
 .modal__close-btn--outer:hover {
     background-color: hsla(var(--color-black-h), var(--color-black-s), var(--color-black-l), 1);
 }
+
 .modal__close-btn--outer:hover .icon {
     transform: scale(1.1);
 }
@@ -218,9 +229,11 @@ Usage: codyhouse.co/license
     box-shadow: var(--inner-glow), var(--shadow-sm);
     transition: 0.2s;
 }
+
 .modal__close-btn--inner .icon {
     color: inherit; /* icon color */
 }
+
 .modal__close-btn--inner:hover {
     background-color: var(--color-bg-lighter);
     box-shadow: var(--inner-glow), var(--shadow-md);
@@ -236,9 +249,11 @@ Usage: codyhouse.co/license
         --modal-transition-duration: 0.2s;
         transition: opacity var(--modal-transition-duration), background-color var(--modal-transition-duration), visibility 0s var(--modal-transition-duration);
     }
+
     .modal--animate-fade.modal--is-visible {
         transition: opacity var(--modal-transition-duration), background-color var(--modal-transition-duration), visibility 0s;
     }
+
     .modal--animate-scale,
     .modal--animate-translate-up,
     .modal--animate-translate-down,
@@ -247,6 +262,7 @@ Usage: codyhouse.co/license
         --modal-transition-duration: 0.2s;
         transition: opacity var(--modal-transition-duration), background-color var(--modal-transition-duration), visibility 0s var(--modal-transition-duration);
     }
+
     .modal--animate-scale .modal__content,
     .modal--animate-translate-up .modal__content,
     .modal--animate-translate-down .modal__content,
@@ -255,6 +271,7 @@ Usage: codyhouse.co/license
         will-change: transform;
         transition: transform var(--modal-transition-duration) var(--ease-out);
     }
+
     .modal--animate-scale.modal--is-visible,
     .modal--animate-translate-up.modal--is-visible,
     .modal--animate-translate-down.modal--is-visible,
@@ -262,6 +279,7 @@ Usage: codyhouse.co/license
     .modal--animate-translate-left.modal--is-visible {
         transition: opacity var(--modal-transition-duration), background-color var(--modal-transition-duration), visibility 0s;
     }
+
     .modal--animate-scale.modal--is-visible .modal__content,
     .modal--animate-translate-up.modal--is-visible .modal__content,
     .modal--animate-translate-down.modal--is-visible .modal__content,
@@ -269,6 +287,7 @@ Usage: codyhouse.co/license
     .modal--animate-translate-left.modal--is-visible .modal__content {
         transform: scale(1); /* reset all transformations */
     }
+
     .modal--animate-slide-up,
     .modal--animate-slide-down,
     .modal--animate-slide-right,
@@ -276,6 +295,7 @@ Usage: codyhouse.co/license
         --modal-transition-duration: 0.3s;
         transition: opacity 0s var(--modal-transition-duration), background-color var(--modal-transition-duration), visibility 0s var(--modal-transition-duration);
     }
+
     .modal--animate-slide-up .modal__content,
     .modal--animate-slide-down .modal__content,
     .modal--animate-slide-right .modal__content,
@@ -283,53 +303,66 @@ Usage: codyhouse.co/license
         will-change: transform;
         transition: transform var(--modal-transition-duration) var(--ease-out);
     }
+
     .modal--animate-slide-up.modal--is-visible,
     .modal--animate-slide-down.modal--is-visible,
     .modal--animate-slide-right.modal--is-visible,
     .modal--animate-slide-left.modal--is-visible {
         transition: background-color var(--modal-transition-duration), visibility 0s;
     }
+
     .modal--animate-slide-up.modal--is-visible .modal__content,
     .modal--animate-slide-down.modal--is-visible .modal__content,
     .modal--animate-slide-right.modal--is-visible .modal__content,
     .modal--animate-slide-left.modal--is-visible .modal__content {
         transform: scale(1); /* reset all transformations */
     }
+
     /* scale */
     .modal--animate-scale .modal__content {
         transform: scale(0.95);
     }
+
     /* translate */
     .modal--animate-translate-up .modal__content {
         transform: translateY(40px);
     }
+
     .modal--animate-translate-down .modal__content {
         transform: translateY(-40px);
     }
+
     .modal--animate-translate-right .modal__content {
         transform: translateX(-40px);
     }
+
     .modal--animate-translate-left .modal__content {
         transform: translateX(40px);
     }
+
     /* slide */
     .modal--animate-slide-up .modal__content {
         transform: translateY(100%);
     }
+
     .modal--animate-slide-down .modal__content {
         transform: translateY(-100%);
     }
+
     .modal--animate-slide-right .modal__content {
         transform: translateX(-100%);
     }
+
     .modal--animate-slide-left .modal__content {
         transform: translateX(100%);
     }
 }
+
 /* load content - optional */
 .modal--is-loading .modal__content {
     visibility: hidden;
 }
+
 .modal--is-loading .modal__loader {
     display: flex;
 }
@@ -351,6 +384,7 @@ Usage: codyhouse.co/license
     position: relative;
     cursor: pointer;
 }
+
 .modal-img-btn::after {
     content: "";
     position: absolute;
@@ -362,9 +396,11 @@ Usage: codyhouse.co/license
     background-color: hsla(var(--color-black-h), var(--color-black-s), var(--color-black-l), 0);
     transition: background 0.2s;
 }
+
 .modal-img-btn:hover::after {
     background-color: hsla(var(--color-black-h), var(--color-black-s), var(--color-black-l), 0.7);
 }
+
 .modal-img-btn:hover .modal-img-btn__icon-wrapper {
     opacity: 1;
 }
@@ -384,6 +420,7 @@ Usage: codyhouse.co/license
     opacity: 0;
     transition: opacity 0.2s;
 }
+
 .modal-img-btn__icon-wrapper .icon {
     color: var(--color-white);
 }

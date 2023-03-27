@@ -1,0 +1,103 @@
+/*--------------------------------
+
+Chosen Collective Icons icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'Chosen Collective Icons';
+  src: url('../fonts/Chosen Collective Icons.eot');
+  src: url('../fonts/Chosen Collective Icons.eot') format('embedded-opentype'), url('../fonts/Chosen Collective Icons.woff2') format('woff2'), url('../fonts/Chosen Collective Icons.woff') format('woff'), url('../fonts/Chosen Collective Icons.ttf') format('truetype'), url('../fonts/Chosen Collective Icons.svg') format('svg');
+}
+/* base class */
+.icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Chosen Collective Icons';
+  color: inherit;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* size examples - relative units */
+.icon-sm {
+  font-size: 0.8em;
+}
+.icon-lg {
+  font-size: 1.2em;
+}
+/* size examples - absolute units */
+.icon-16 {
+  font-size: 16px;
+}
+.icon-32 {
+  font-size: 32px;
+}
+/* rotate the icon infinitely */
+.icon-is-spinning {
+  -webkit-animation: icon-spin 1s infinite linear;
+          animation: icon-spin 1s infinite linear;
+}
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/* transform */
+.icon-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.icon-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.icon-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+.icon-flip-y {
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+.icon-flip-x {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+/* icons */
+.ccc-ccc_brandmark::before {
+  content: "\ea09";
+}
+.ccc-square-instagram-1::before {
+  content: "\ea0a";
+}
+.ccc-facebook-f-1::before {
+  content: "\ea0b";
+}
+.ccc-youtube-1::before {
+  content: "\ea0c";
+}
+.ccc-instagram-1::before {
+  content: "\ea0d";
+}
+.ccc-twitter-1::before {
+  content: "\ea0e";
+}
+.ccc-linkedin-in-1::before {
+  content: "\ea0f";
+}

@@ -21,6 +21,7 @@ Usage: codyhouse.co/license
     border-radius: calc(var(--radio-switch-radius) * 1.4);
     background-color: var(--color-bg-darker);
 }
+
 .radio-switch:focus-within, .radio-switch:active {
     box-shadow: 0 0 0 2px hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.15);
 }
@@ -28,8 +29,8 @@ Usage: codyhouse.co/license
 .radio-switch__item {
     position: relative;
     display: inline-block;
-    height: calc(var(--radio-switch-height) - 2*var(--radio-switch-padding));
-    width: calc(var(--radio-switch-width)*0.5 - var(--radio-switch-padding));
+    height: calc(var(--radio-switch-height) - 2 * var(--radio-switch-padding));
+    width: calc(var(--radio-switch-width) * 0.5 - var(--radio-switch-padding));
 }
 
 .radio-switch__label {
@@ -48,12 +49,15 @@ Usage: codyhouse.co/license
     user-select: none;
     transition: all var(--radio-switch-animation-duration);
 }
+
 .radio-switch__input:checked ~ .radio-switch__label {
     color: var(--color-white);
 }
+
 .radio-switch__input:focus ~ .radio-switch__label {
     background-color: hsl(var(--color-primary-h), var(--color-primary-s), calc(var(--color-primary-l) * 0.6));
 }
+
 .radio-switch__label :not(*):focus-within, .radio-switch__input:focus ~ .radio-switch__label {
     background-color: transparent;
 }
@@ -65,13 +69,14 @@ Usage: codyhouse.co/license
     left: -100%;
     border-radius: var(--radio-switch-radius);
     background-color: var(--color-bg70);
-    height: calc(var(--radio-switch-height) - 2*var(--radio-switch-padding));
-    width: calc(var(--radio-switch-width)*0.5 - var(--radio-switch-padding));
+    height: calc(var(--radio-switch-height) - 2 * var(--radio-switch-padding));
+    width: calc(var(--radio-switch-width) * 0.5 - var(--radio-switch-padding));
     box-shadow: var(--shadow-md);
     transition: -webkit-transform var(--radio-switch-animation-duration);
     transition: transform var(--radio-switch-animation-duration);
     transition: transform var(--radio-switch-animation-duration), -webkit-transform var(--radio-switch-animation-duration);
 }
+
 .radio-switch__input:checked ~ .radio-switch__marker {
     transform: translateX(100%);
 }
@@ -95,11 +100,11 @@ Usage: codyhouse.co/license
 }
 
 
-
 .p-table__price span {
     font-size: var(--text-3xl);
     font-weight: bold;
 }
+
 .p-table__price i {
     color: var(--color-contrast-low);
 }
@@ -116,23 +121,28 @@ Usage: codyhouse.co/license
     position: relative;
     overflow: hidden;
 }
+
 .p-table--has-switch .p-table__price {
     will-change: transform;
     transition: transform 0.3s, opacity 0.3s;
     transition-timing-function: var(--ease-out);
 }
+
 .p-table--has-switch .p-table__price[data-transition-delay="2nd"] {
     transition-delay: 0.1s;
 }
+
 .p-table--has-switch .p-table__price[data-transition-delay="3rd"] {
     transition-delay: 0.2s;
 }
+
 .p-table--has-switch .p-table__price--month {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
+
 .p-table--has-switch .p-table__price--year {
     pointer-events: none;
     opacity: 0;
@@ -144,6 +154,7 @@ Usage: codyhouse.co/license
     opacity: 0;
     transform: translateY(-100%);
 }
+
 .p-table--yearly .p-table__price--year {
     pointer-events: auto;
     opacity: 1;
