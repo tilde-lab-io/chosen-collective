@@ -1,38 +1,27 @@
-﻿/* -------------------------------- 
-
-File#: _1_hero
-Title: Hero
-Descr: A full-width callout section
-Usage: codyhouse.co/license
-
--------------------------------- */
-.hero-about {
-    /* if background image in CSS */
-    background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    height: 50vh;
+﻿.about-intro {
+    
 }
 
-/* --overlay-layer */
-.hero-about--overlay-layer::after { /* add a layer in between the img/video background and the content */
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
+:root {
+    --breakpoint-xs: 32rem; /* ~512px  */
+    --breakpoint-sm: 48rem; /* ~768px  */
+    --breakpoint-md: 64rem; /* ~1024px */
+    --breakpoint-lg: 80rem; /* ~1280px */
+    --breakpoint-xl: 90rem; /* ~1440px */
 }
 
-@media (min-width: 64rem) {
-    .hero-about {
-        background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
-        height: 65vh;
-        background-position-y: -150px;
+@media (min-width: var(--breakpoint-sm)) {
+    .about-intro > img {
+        object-position: left;
     }
 }
+
+@media (min-width: var(--breakpoint-lg)) {
+    .about-intro > img {
+        margin-top: -1000px;
+    }
+}
+
 
 /* -------------------------------- 
 

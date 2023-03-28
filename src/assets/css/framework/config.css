@@ -33,7 +33,21 @@
     src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102.eot") format('embedded-opentype');
     src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102.ttf") format('truetype');
     src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102.woff") format('woff');
-    src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102a.woff2") format('truetype');
+    src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102a.woff2") format('woff2');
+}
+
+/* Custom Icons */
+@font-face {
+    font-display: swap;
+    font-family: 'Chosen Collective Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot');
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot') format('embedded-opentype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff2') format('woff2'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff') format('woff'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.ttf') format('truetype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.svg') format('svg');
 }
 
 :root {

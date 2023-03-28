@@ -6,7 +6,7 @@ Descr: A full-width callout section
 Usage: codyhouse.co/license
 
 -------------------------------- */
-.hero-services{
+.hero-services {
     /* if background image in CSS */
     background-image: url('');
     background-size: cover;
@@ -23,4 +23,263 @@ Usage: codyhouse.co/license
     }
 }
 
+/* -------------------------------- 
+
+File#: _1_card-v8
+Title: Card v8
+Descr: Container of information used as teaser for further content exploration
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.card-v8 {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.card-v8 img {
+    display: block;
+    width: 100%;
+}
+.card-v8:hover {
+    background-color: var(--color-bg-light);
+    box-shadow: var(--shadow-md);
+}
+.card-v8:hover .card-v8__title {
+    background-size: 100% 100%;
+}
+
+.card-v8__title {
+    background-repeat: no-repeat;
+    will-change: background-size;
+    transition: background-size 0.3s var(--ease-in-out);
+    text-decoration: none;
+    background-image: linear-gradient(transparent 50%, hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2) 50%);
+    background-size: 0% 100%;
+}
+
+/* -------------------------------- 
+
+File#: _2_feature-v8
+Title: Feature v8
+Descr: A section containing a list of features
+Usage: codyhouse.co/license
+
+-------------------------------- */
+:root {
+    --feature-v8-gap: var(--space-xl);
+}
+
+.feature-v8 {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-v8__main-content {
+    padding-bottom: calc(var(--feature-v8-gap) * 2);
+}
+
+.feature-v8__sub-content {
+    margin-top: calc(var(--feature-v8-gap) * -1);
+}
+
+
+/* -------------------------------- 
+
+File#: _1_banner
+Title: Banner
+Descr: A CTA banner containing text + media
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.banner {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    background-color: var(--color-bg-light);
+    box-shadow: var(--inner-glow), var(--shadow-ring), var(--shadow-sm);
+    border-radius: var(--radius-md);
+    transition: 0.3s;
+}
+
+.banner:hover {
+    background-color: var(--color-bg-lighter);
+    box-shadow: var(--inner-glow), var(--shadow-ring), var(--shadow-md);
+}
+
+.banner:hover .banner__link {
+    transform: scale(1.3);
+}
+
+.banner:hover .banner__link i {
+    transform: scale(0.7);
+}
+
+.banner:hover .banner__link::after {
+    height: 100%;
+}
+
+.banner:hover .banner__figure {
+    transform: scale(1.05);
+}
+
+.banner__link {
+    position: relative;
+    text-decoration: none;
+    color: var(--color-primary-dark);
+    display: inline-block;
+    transition: 0.3s var(--ease-out);
+    transform-origin: left bottom;
+}
+
+.banner__link i {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    transition: 0.3s var(--ease-out);
+}
+
+.banner__link::after {
+    content: "";
+    background-color: currentColor;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    -webkit-clip-path: inset(0% round var(--radius-sm));
+    clip-path: inset(0% round var(--radius-sm));
+    transition: 0.3s var(--ease-out);
+    opacity: 0.15;
+}
+
+.banner__figure {
+    height: 0;
+    width: 100%;
+    padding-bottom: 50%;
+    transition: 0.3s var(--ease-out);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 64rem) {
+    .banner:not(.banner--invert) .banner__grid {
+        flex-direction: row-reverse;
+    }
+
+    .banner__figure {
+        height: 100%;
+        padding-bottom: 0;
+        -webkit-clip-path: polygon(100px 0%, 100% 0%, 100% 100%, 50px 100%);
+        clip-path: polygon(100px 0%, 100% 0%, 100% 100%, 50px 100%);
+    }
+
+    .banner--invert .banner__figure {
+        -webkit-clip-path: polygon(0% 0%, calc(100% - 100px) 0%, calc(100% - 50px) 100%, 0% 100%);
+        clip-path: polygon(0% 0%, calc(100% - 100px) 0%, calc(100% - 50px) 100%, 0% 100%);
+    }
+
+    .banner--invert .banner__link {
+        transform-origin: right bottom;
+    }
+
+    .banner--invert .banner__text {
+        text-align: right;
+    }
+
+    .banner:hover .banner__figure {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+/* -------------------------------- 
+
+File#: _2_pricing-table
+Title: Pricing Table
+Descr: A table used to compare prices and features of different products
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.p-table__item {
+    background-color: var(--color-bg-dark);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--inner-glow);
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+}
+
+.p-table__badge {
+    font-size: var(--text-sm);
+    background-color: var(--color-contrast-high);
+    color: var(--color-bg);
+    padding: var(--space-3xs) var(--space-2xs);
+    vertical-align: middle;
+    border-radius: var(--radius-md);
+}
+
+.p-table__price span {
+    font-size: var(--text-3xl);
+    font-weight: bold;
+}
+
+.p-table__price i {
+    color: var(--color-contrast-low);
+}
+
+.p-table__features li {
+    margin-bottom: var(--space-xs);
+}
+
+.p-table__switch {
+    display: none;
+}
+
+.p-table--has-switch .p-table__price-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.p-table--has-switch .p-table__price {
+    will-change: transform;
+    transition: transform 0.3s, opacity 0.3s;
+    transition-timing-function: var(--ease-out);
+}
+
+.p-table--has-switch .p-table__price[data-transition-delay="2nd"] {
+    transition-delay: 0.1s;
+}
+
+.p-table--has-switch .p-table__price[data-transition-delay="3rd"] {
+    transition-delay: 0.2s;
+}
+
+.p-table--has-switch .p-table__price--month {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.p-table--has-switch .p-table__price--year {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.p-table--yearly .p-table__price--month {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.p-table--yearly .p-table__price--year {
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(0);
+}
 

@@ -82,7 +82,20 @@ img, video, svg {
     src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102.eot") format('embedded-opentype');
     src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102.ttf") format('truetype');
     src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102.woff") format('woff');
-    src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102a.woff2") format('truetype');
+    src: url("/src/assets/fonts/atkinson/atkinson-hyperlegible-regular-102a.woff2") format('woff2');
+}
+/* Custom Icons */
+@font-face {
+    font-display: swap;
+    font-family: 'Chosen Collective Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot');
+    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot') format('embedded-opentype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff2') format('woff2'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff') format('woff'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.ttf') format('truetype'),
+    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.svg') format('svg');
 }
 :root {
     /* font family */
@@ -908,15 +921,6 @@ Chosen Collective Icons icon font
 Generated using nucleoapp.com
 
 -------------------------------- */
-@font-face {
-    font-family: 'Chosen Collective Icons';
-    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot');
-    src: url('/src/assets/fonts/ccc-icons/chosen-collective-icons.eot') format('embedded-opentype'),
-    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff2') format('woff2'),
-    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.woff') format('woff'),
-    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.ttf') format('truetype'),
-    url('/src/assets/fonts/ccc-icons/chosen-collective-icons.svg') format('svg');
-}
 /* base class */
 .ccc-icon {
     display: inline-block;
@@ -1650,37 +1654,24 @@ Usage: codyhouse.co/license
     position: relative;
     z-index: 1;
 }
-/* -------------------------------- 
-
-File#: _1_hero
-Title: Hero
-Descr: A full-width callout section
-Usage: codyhouse.co/license
-
--------------------------------- */
-.hero-about {
-    /* if background image in CSS */
-    background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    height: 50vh;
+.about-intro {
+    
 }
-/* --overlay-layer */
-.hero-about--overlay-layer::after { /* add a layer in between the img/video background and the content */
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
+:root {
+    --breakpoint-xs: 32rem; /* ~512px  */
+    --breakpoint-sm: 48rem; /* ~768px  */
+    --breakpoint-md: 64rem; /* ~1024px */
+    --breakpoint-lg: 80rem; /* ~1280px */
+    --breakpoint-xl: 90rem; /* ~1440px */
 }
-@media (min-width: 64rem) {
-    .hero-about {
-        background-image: url('https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Staff_Photos/team-photo-header_Nzjx3n9Tk.webp?updatedAt=1679412873100');
-        height: 65vh;
-        background-position-y: -150px;
+@media (min-width: var(--breakpoint-sm)) {
+    .about-intro > img {
+        object-position: left;
+    }
+}
+@media (min-width: var(--breakpoint-lg)) {
+    .about-intro > img {
+        margin-top: -1000px;
     }
 }
 /* -------------------------------- 
@@ -2056,6 +2047,60 @@ Usage: codyhouse.co/license
         height: 65vh;
         background-position-y: -150px;
     }
+}
+/* -------------------------------- 
+
+File#: _1_card-v8
+Title: Card v8
+Descr: Container of information used as teaser for further content exploration
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.card-v8 {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.card-v8 img {
+    display: block;
+    width: 100%;
+}
+.card-v8:hover {
+    background-color: var(--color-bg-light);
+    box-shadow: var(--shadow-md);
+}
+.card-v8:hover .card-v8__title {
+    background-size: 100% 100%;
+}
+.card-v8__title {
+    background-repeat: no-repeat;
+    will-change: background-size;
+    transition: background-size 0.3s var(--ease-in-out);
+    text-decoration: none;
+    background-image: linear-gradient(transparent 50%, hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2) 50%);
+    background-size: 0% 100%;
+}
+/* -------------------------------- 
+
+File#: _2_feature-v8
+Title: Feature v8
+Descr: A section containing a list of features
+Usage: codyhouse.co/license
+
+-------------------------------- */
+:root {
+    --feature-v8-gap: var(--space-xl);
+}
+.feature-v8 {
+    position: relative;
+    z-index: 1;
+}
+.feature-v8__main-content {
+    padding-bottom: calc(var(--feature-v8-gap) * 2);
+}
+.feature-v8__sub-content {
+    margin-top: calc(var(--feature-v8-gap) * -1);
 }
 /* -------------------------------- 
 

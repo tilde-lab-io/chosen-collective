@@ -1,46 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="remove headers">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/tools/aos.css" afterDir="false" />
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="site-wide updates">
       <change afterPath="$PROJECT_DIR$/src/assets/js/components/_services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/tools/aos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/reservations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/reservations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/buttons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/framework/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/config.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/typography.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/css/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/icons/css/icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/icons/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/icons/demo/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/icons/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/scss/icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/icons/scss/icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/unicodesMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/icons/unicodesMap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/tools/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/tools/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/tools/flickity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/tools/flickity.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/tools/hover.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/tools/hover.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/chosen-collective-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/ccc-icons/chosen-collective-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/components/_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/components/_reservations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_reservations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/components/_reset-retreat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_reset-retreat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/components/_util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/tools/flickity-fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/flickity-fade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/tools/flickity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/flickity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/tools/images-loaded.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/images-loaded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/tools/masonry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/masonry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/css/icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/scss/icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/unicodesMap.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +79,7 @@
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -149,7 +127,7 @@
       <workItem from="1679613411551" duration="92379000" />
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
-      <workItem from="1679862437018" duration="28812000" />
+      <workItem from="1679862437018" duration="67655000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -480,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679869589666</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="site-wide updates">
+      <created>1679904552563</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1679904552563</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +495,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="updated org logos, index.html" />
     <MESSAGE value="Updates to testimonials @index, updates to framework" />
     <MESSAGE value="layout text @index" />
     <MESSAGE value="layout test @index" />
@@ -535,7 +519,8 @@
     <MESSAGE value="update @framework, update @index" />
     <MESSAGE value="update headers" />
     <MESSAGE value="remove headers" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove headers" />
+    <MESSAGE value="site-wide updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="site-wide updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -605,12 +590,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <line>1325</line>
+          <line>1209</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <line>5915</line>
+          <line>5799</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
