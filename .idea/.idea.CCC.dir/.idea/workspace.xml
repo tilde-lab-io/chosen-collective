@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update @services, first pass" />
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="Spell check @services">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,14 +111,7 @@
       <workItem from="1679613411551" duration="92379000" />
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
-      <workItem from="1679862437018" duration="68125000" />
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1679503301553</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679503301553</updated>
+      <workItem from="1679862437018" duration="70714000" />
     </task>
     <task id="LOCAL-00002" summary="init">
       <created>1679504037543</created>
@@ -453,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680030506679</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Spell check @services">
+      <created>1680040375286</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1680040375290</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +486,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="layout text @index" />
     <MESSAGE value="layout test @index" />
     <MESSAGE value="update layout @index" />
     <MESSAGE value="layout update @index" />
@@ -508,7 +510,8 @@
     <MESSAGE value="remove headers" />
     <MESSAGE value="site-wide updates" />
     <MESSAGE value="update @services, first pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="update @services, first pass" />
+    <MESSAGE value="Spell check @services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spell check @services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
