@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="site-wide updates">
-      <change afterPath="$PROJECT_DIR$/src/assets/js/components/_services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/config.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/css/icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/demo/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/scss/icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/icons/unicodesMap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update @services, first pass" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +108,7 @@
       <workItem from="1679613411551" duration="92379000" />
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
-      <workItem from="1679862437018" duration="67655000" />
+      <workItem from="1679862437018" duration="68125000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679503301553</created>
@@ -465,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679904552563</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="update @services, first pass">
+      <created>1680030506679</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1680030506679</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +483,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Updates to testimonials @index, updates to framework" />
     <MESSAGE value="layout text @index" />
     <MESSAGE value="layout test @index" />
     <MESSAGE value="update layout @index" />
@@ -520,7 +507,8 @@
     <MESSAGE value="update headers" />
     <MESSAGE value="remove headers" />
     <MESSAGE value="site-wide updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="site-wide updates" />
+    <MESSAGE value="update @services, first pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="update @services, first pass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
