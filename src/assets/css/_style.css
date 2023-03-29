@@ -17,9 +17,8 @@
 @import 'components/donation.css';
 @import 'components/reservations.css';
 
-/* utility classes */
+/* utilities */
 @import 'framework/util.css';
-
 @import 'tools/flickity.css';
 @import 'tools/animate.css';
 @import 'tools/hover.css';

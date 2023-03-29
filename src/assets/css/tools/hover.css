@@ -12,7 +12,6 @@
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
@@ -22,7 +21,6 @@
 }
 
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
@@ -30,7 +28,6 @@
 .hvr-shrink {
     display: inline-block;
     vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
@@ -40,18 +37,15 @@
 }
 
 .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
-    -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
 
 /* Pulse */
 @-webkit-keyframes hvr-pulse {
     25% {
-        -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
     75% {
-        -webkit-transform: scale(0.9);
         transform: scale(0.9);
     }
 }
