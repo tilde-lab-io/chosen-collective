@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="Spell check @services">
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update @services">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,21 +111,7 @@
       <workItem from="1679613411551" duration="92379000" />
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
-      <workItem from="1679862437018" duration="70714000" />
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <created>1679504037543</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679504037543</updated>
-    </task>
-    <task id="LOCAL-00003" summary="init">
-      <created>1679506134229</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679506134229</updated>
+      <workItem from="1679862437018" duration="77207000" />
     </task>
     <task id="LOCAL-00004" summary="Refactor vision-values-mission on index.html">
       <created>1679605547444</created>
@@ -456,7 +442,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680040375290</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update @services">
+      <created>1680046664430</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1680046664430</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update @services">
+      <created>1680046867360</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1680046867360</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +486,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="layout test @index" />
     <MESSAGE value="update layout @index" />
     <MESSAGE value="layout update @index" />
     <MESSAGE value="add autoplay to testimonials @index" />
@@ -511,7 +510,8 @@
     <MESSAGE value="site-wide updates" />
     <MESSAGE value="update @services, first pass" />
     <MESSAGE value="Spell check @services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spell check @services" />
+    <MESSAGE value="update @services" />
+    <option name="LAST_COMMIT_MESSAGE" value="update @services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
