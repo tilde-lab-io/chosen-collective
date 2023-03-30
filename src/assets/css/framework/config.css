@@ -337,7 +337,7 @@
 
     --color-white-h: 0;
     --color-white-s: 0%;
-    --color-white-l: 100%;
+    --color-white-l: 97%;
     --color-white: hsl(var(--color-white-h), var(--color-white-s), var(--color-white-l));
 
 

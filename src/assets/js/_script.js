@@ -12,12 +12,27 @@
 
 //@prepros-prepend ./tools/flickity.js
 
-//@prepros-prepend ./tools/masonry.js
+//@prepros-prepend ./tools/isotope.js
 
 //@prepros-prepend ./tools/images-loaded.js
 
+//@prepros-prepend ./tools/aos.js
+
+
 
 /* Initializers */
+
+AOS.init({
+    offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+    disable: function () {
+        let maxWidth = 1024;
+        return window.innerWidth < maxWidth;
+    },
+});
+
 var carousel = document.querySelector('.client-testimonials');
 var flkty;
 
@@ -38,16 +53,16 @@ flkty = new Flickity(carousel, {
 });
 
 
-var grid = document.querySelector('.masonry-grid');
-var msnry;
-imagesLoaded(grid, function () {
-    // init Isotope after all images have loaded
-    msnry = new Masonry(grid, {
-        itemSelector: '.masonry-grid-item',
+var elem = document.querySelector('.masonry-grid');
+var iso;
+iso = new Isotope(elem, {
+    //options
+    itemSelector: '.masonry-grid-item',
+    masonry: {
         fitWith: true,
         columnWidth: 414.66,
         gutter: 15,
+        stagger: 30,
         transitionDuration: '0.2s',
-        stagger: 30
-    });
+    }
 });

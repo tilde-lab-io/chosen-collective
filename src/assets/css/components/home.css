@@ -1,11 +1,4 @@
-﻿/* -------------------------------- 
-
-File#: _1_anim-menu-btn
-Title: Animated Menu Button
-Descr: A menu button w/ a morphing icon
-Usage: codyhouse.co/license
-
--------------------------------- */
+﻿/* HEADER ANIM BUTTON */
 :root {
     --anim-menu-btn-size: 48px;
     --anim-menu-btn-transition-duration: .2s;
@@ -172,14 +165,7 @@ Usage: codyhouse.co/license
     transform: rotate(-90deg);
 }
 
-/* -------------------------------- 
-
-File#: _2_flexi-header
-Title: Flexi Header
-Descr: Customizable header template
-Usage: codyhouse.co/license
-
--------------------------------- */
+/* HEADER */
 :root {
     --f-header-height: 70px;
     --f-header-logo-width: 7rem;
@@ -194,6 +180,7 @@ Usage: codyhouse.co/license
 @media (min-width: 90rem) {
     :root {
         --f-header-height: 90px;
+        --f-header-logo-width: 9rem;
     }
 }
 
@@ -461,19 +448,19 @@ Usage: codyhouse.co/license
     }
 }
 
-/* Video background */
-.hero-video-bg {
-
-}
-
-.video-brightness-screen {
-
-}
-
+/* HERO SECTION */
 .video-brightness-screen video {
     margin: -25px 0;
     padding: 0;
     overflow: hidden;
+}
+
+:root {
+    --breakpoint-xs: 32rem; /* ~512px*/
+    --breakpoint-sm: 48rem; /* ~768px */
+    --breakpoint-md: 64rem; /* ~1024px */
+    --breakpoint-lg: 80rem; /* ~1280px */
+    --breakpoint-xl: 90rem; /* ~1440px */
 }
 
 @media (min-width: var(--breakpoint-sm)) {
@@ -489,13 +476,7 @@ Usage: codyhouse.co/license
     }
 }
 
-:root {
-    --breakpoint-xs: 32rem; /* ~512px*/
-    --breakpoint-sm: 48rem; /* ~768px */
-    --breakpoint-md: 64rem; /* ~1024px */
-    --breakpoint-lg: 80rem; /* ~1280px */
-    --breakpoint-xl: 90rem; /* ~1440px */
-}
+
 
 /* -------------------------------- 
 

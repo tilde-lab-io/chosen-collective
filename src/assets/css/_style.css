@@ -22,6 +22,7 @@
 @import 'tools/flickity.css';
 @import 'tools/animate.css';
 @import 'tools/hover.css';
+@import 'tools/aos.css';
 
 .flickity-page-dots {
     bottom: -40px;
