@@ -1,18 +1,9 @@
-﻿.masonry-grid {
-    
-}
+﻿/* GALLERY */
 .masonry-grid-item {
     width: 415px;
 }
 
-/* -------------------------------- 
-
-File#: _1_modal-window
-Title: Modal Window
-Descr: A modal dialog used to display critical information
-Usage: codyhouse.co/license
-
--------------------------------- */
+/* MODALS */
 .modal {
     position: fixed;
     z-index: var(--z-index-overlay, 15);
@@ -274,18 +265,6 @@ Usage: codyhouse.co/license
 
 .modal-img-btn__icon-wrapper .icon {
     color: var(--color-white);
-}
-
-/* -------------------------------- 
-
-File#: _1_smooth-scrolling
-Title: Smooth Scrolling
-Descr: Replace the default browser behaviour (jump) with a smooth scrolling transition
-Usage: codyhouse.co/license
-
--------------------------------- */
-html {
-    scroll-behavior: smooth;
 }
 
 

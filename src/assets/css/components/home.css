@@ -476,6 +476,17 @@
     }
 }
 
+/* -------------------------------- 
+
+File#: _1_smooth-scrolling
+Title: Smooth Scrolling
+Descr: Replace the default browser behaviour (jump) with a smooth scrolling transition
+Usage: codyhouse.co/license
+
+-------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
 
 
 /* -------------------------------- 

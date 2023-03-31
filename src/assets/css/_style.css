@@ -8,6 +8,13 @@
 @import 'framework/buttons.css';
 @import 'framework/forms.css';
 
+/* utilities */
+@import 'framework/util.css';
+@import 'tools/flickity.css';
+@import 'tools/animate.css';
+@import 'tools/hover.css';
+@import 'tools/aos.css';
+
 /* custom css */
 @import 'components/home.css';
 @import 'components/about.css';
@@ -16,13 +23,6 @@
 @import 'components/contact.css';
 @import 'components/donation.css';
 @import 'components/reservations.css';
-
-/* utilities */
-@import 'framework/util.css';
-@import 'tools/flickity.css';
-@import 'tools/animate.css';
-@import 'tools/hover.css';
-@import 'tools/aos.css';
 
 .flickity-page-dots {
     bottom: -40px;
