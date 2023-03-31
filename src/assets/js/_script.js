@@ -51,7 +51,7 @@ flkty = new Flickity(carousel, {
     adaptiveHeight: false,
     selectedAttraction: 0.2,
     friction: 0.8,
-    autoPlay: 7000,
+    autoPlay: 6000,
 });
 
 

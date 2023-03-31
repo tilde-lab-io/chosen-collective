@@ -242,3 +242,5 @@
     }
 }());
 
+/*** Update copyright yearly ***/
+// document.getElementById("date").innerHTML = new Date().getFullYear().toString();

@@ -507,7 +507,8 @@ function resetFocusTabsStyle() {
     }
 }());
 
-
+/*** Update copyright yearly ***/
+// document.getElementById("date").innerHTML = new Date().getFullYear().toString();
 ﻿
 
 ﻿// File#: _1_modal-window
@@ -10258,7 +10259,7 @@ flkty = new Flickity(carousel, {
     adaptiveHeight: false,
     selectedAttraction: 0.2,
     friction: 0.8,
-    autoPlay: 7000,
+    autoPlay: 6000,
 });
 
 
