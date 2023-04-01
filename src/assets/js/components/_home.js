@@ -155,11 +155,11 @@
 // File#: _1_back-to-top
 // Usage: codyhouse.co/license
 (function () {
-    var backTop = document.getElementsByClassName('js-back-to-top')[0];
+    let backTop = document.getElementsByClassName('js-back-to-top')[0];
     if (backTop) {
-        var dataElement = backTop.getAttribute('data-element');
-        var scrollElement = dataElement ? document.querySelector(dataElement) : window;
-        var scrollOffsetInit = parseInt(backTop.getAttribute('data-offset-in')) || parseInt(backTop.getAttribute('data-offset')) || 0, //show back-to-top if scrolling > scrollOffset
+        let dataElement = backTop.getAttribute('data-element');
+        let scrollElement = dataElement ? document.querySelector(dataElement) : window;
+        let scrollOffsetInit = parseInt(backTop.getAttribute('data-offset-in')) || parseInt(backTop.getAttribute('data-offset')) || 0, //show back-to-top if scrolling > scrollOffset
             scrollOffsetOutInit = parseInt(backTop.getAttribute('data-offset-out')) || 0,
             scrollOffset = 0,
             scrollOffsetOut = 0,
@@ -201,9 +201,9 @@
 
         function checkBackToTop() {
             updateOffsets();
-            var windowTop = scrollElement.scrollTop || document.documentElement.scrollTop;
+            let windowTop = scrollElement.scrollTop || document.documentElement.scrollTop;
             if (!dataElement) windowTop = window.scrollY || document.documentElement.scrollTop;
-            var condition = windowTop >= scrollOffset;
+            let condition = windowTop >= scrollOffset;
             if (scrollOffsetOut > 0) {
                 condition = (windowTop >= scrollOffset) && (window.innerHeight + windowTop < scrollOffsetOut);
             }
@@ -217,7 +217,7 @@
         }
 
         function getOffset(target, startOffset, bool) {
-            var offset = 0;
+            let offset = 0;
             if (target) {
                 var windowTop = scrollElement.scrollTop || document.documentElement.scrollTop;
                 if (!dataElement) windowTop = window.scrollY || document.documentElement.scrollTop;

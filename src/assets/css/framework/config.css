@@ -13,20 +13,33 @@
 /* Body */
 @font-face {
     font-display: swap;
-    font-family: 'Nato Sans', system-ui;
+    font-family: 'Nato Sans', 'Atkinson Hyperlegible', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    src: local('Noto Sans');
+    font-weight: 400;
+    src: local('Noto Sans'), local('Noto-Sans');
     src: url("/src/assets/fonts/noto/noto-sans-v27-latin-regular.eot") format('embedded-opentype');
     src: url("/src/assets/fonts/noto/noto-sans-v27-latin-regular.ttf") format('trutype');
     src: url("/src/assets/fonts/noto/noto-sans-v27-latin-regular.woff") format('woff');
     src: url("/src/assets/fonts/noto/noto-sans-v27-latin-regular.woff2") format('woff2');
 }
 
+/* Body */
+@font-face {
+    font-display: swap;
+    font-family: 'Nato Sans', 'Atkinson Hyperlegible', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans');
+    src: url("/src/assets/fonts/noto/noto-sans-v27-latin-700.eot") format('embedded-opentype');
+    src: url("/src/assets/fonts/noto/noto-sans-v27-latin-700.ttf") format('trutype');
+    src: url("/src/assets/fonts/noto/noto-sans-v27-latin-700.woff") format('woff');
+    src: url("/src/assets/fonts/noto/noto-sans-v27-latin-700.woff2") format('woff2');
+}
+
 /* Body alt*/
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Atkinson Hyperlegible', system-ui;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-style: normal;
     font-weight: 400;
     src: local('Atkinson Hyperlegible');

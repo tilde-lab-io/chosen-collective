@@ -165,6 +165,8 @@
     transform: rotate(-90deg);
 }
 
+
+
 /* HEADER */
 :root {
     --f-header-height: 70px;
@@ -392,7 +394,7 @@
     .f-header__dropdown-link,
     .f-header__btn,
     .f-header__form-control {
-        font-size: 1rem;
+        font-size: var(--text-sm);
     }
 
     .f-header__link {
@@ -448,19 +450,23 @@
     }
 }
 
+@media (min-width: 90rem) {
+    .f-header__link,
+    .f-header__dropdown-control,
+    .f-header__dropdown-link,
+    .f-header__btn,
+    .f-header__form-control {
+        font-size: var(--text-md);
+    }
+
+}
+
+
 /* HERO SECTION */
 .video-brightness-screen video {
     margin: -25px 0;
     padding: 0;
     overflow: hidden;
-}
-
-:root {
-    --breakpoint-xs: 32rem; /* ~512px*/
-    --breakpoint-sm: 48rem; /* ~768px */
-    --breakpoint-md: 64rem; /* ~1024px */
-    --breakpoint-lg: 80rem; /* ~1280px */
-    --breakpoint-xl: 90rem; /* ~1440px */
 }
 
 @media (min-width: var(--breakpoint-sm)) {
@@ -474,18 +480,6 @@
         margin-top: -1000px;
         overflow: hidden;
     }
-}
-
-/* -------------------------------- 
-
-File#: _1_smooth-scrolling
-Title: Smooth Scrolling
-Descr: Replace the default browser behaviour (jump) with a smooth scrolling transition
-Usage: codyhouse.co/license
-
--------------------------------- */
-html {
-    scroll-behavior: smooth;
 }
 
 
@@ -502,31 +496,42 @@ Usage: codyhouse.co/license
     z-index: 1;
 }
 
-.feature-v11__link {
+/* BACK TO TOP */
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.1);
-    color: var(--color-contrast-higher);
-    text-decoration: none;
-    line-height: 1;
-    transition: 0.3s;
+    position: fixed;
+    right: var(--space-md);
+    bottom: var(--space-md);
+    z-index: var(--z-index-fixed-element, 10);
+    border-radius: 50%;
+    background-color: var(--color-primary-light);
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
 }
 
-.feature-v11__link .icon {
-    transform: rotate(-45deg);
-    transition: transform 0.3s var(--ease-out);
+.back-to-top:hover {
+    background-color: var(--color-primary-lighter);
 }
 
-.feature-v11__link:hover {
-    background-color: var(--color-primary);
-    color: var(--color-white);
+.back-to-top .icon {
+    --size: 20px;
+    display: block;
+    margin: auto;
+    color: var(--color-bg);
 }
 
-.feature-v11__link:hover .icon {
-    transform: rotate(0deg);
+.back-to-top--is-visible {
+    visibility: visible;
+    opacity: 1;
 }
-
 
 /* -------------------------------- 
 
@@ -541,3 +546,127 @@ Usage: codyhouse.co/license
     z-index: 1;
 }
 
+/* -------------------------------- 
+
+File#: _1_socials
+Title: Socials
+Descr: Section with links to social media accounts
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.socials__btns a {
+    --size: 2.5em;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-contrast-high);
+    transition: 0.3s;
+}
+.socials__btns a .icon {
+    font-size: 1.25em; /* icon size */
+    color: var(--color-bg); /* icon color */
+    transition: color 0.3s, transform 0.3s var(--ease-out-back);
+}
+.socials__btns a:hover {
+    background-color: var(--color-primary);
+}
+.socials__btns a:hover .icon {
+    transform: scale(1.2);
+    color: var(--color-white);
+}
+
+/* -------------------------------- 
+
+File#: _1_main-footer-v2
+Title: Main Footer v2
+Descr: Footer navigation template
+Usage: codyhouse.co/license
+
+-------------------------------- */
+.footer-v2 {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-v2__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+}
+@media (min-width: 32rem) {
+    .footer-v2__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 64rem) {
+    .footer-v2__list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.footer-v2__item {
+    display: grid;
+    gap: var(--space-sm);
+    align-content: start;
+}
+@media (min-width: 64rem) {
+    .footer-v2__item {
+        gap: var(--space-xs);
+    }
+}
+
+.footer-v2__item a {
+    color: var(--color-contrast-medium);
+}
+.footer-v2__item a:hover {
+    color: var(--color-contrast-high);
+}
+@media (min-width: 64rem) {
+    .footer-v2__item a {
+        font-size: var(--text-sm);
+    }
+}
+
+.footer-v2__socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--space-sm);
+}
+.footer-v2__socials a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 var(--space-3xs);
+    color: var(--color-contrast-medium);
+}
+.footer-v2__socials a:hover {
+    color: var(--color-contrast-high);
+}
+.footer-v2__socials a svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+    color: inherit;
+}
+
+.footer-v2__print {
+    font-size: var(--text-sm);
+    color: var(--color-contrast-medium);
+    text-align: center;
+}
+.footer-v2__print p {
+    margin-bottom: var(--space-sm);
+}
+.footer-v2__print a {
+    color: inherit;
+}
+.footer-v2__print a:hover {
+    color: var(--color-contrast-high);
+}
+@media (min-width: 64rem) {
+    .footer-v2__print {
+        font-size: var(--text-xs);
+    }
+}

@@ -35,15 +35,14 @@ AOS.init({
     },
 });
 
-var carousel = document.querySelector('.client-testimonials');
-var flkty;
+let carousel = document.querySelector('.client-testimonials');
+let flkty;
 
 flkty = new Flickity(carousel, {
     // options
     cellSelector: '.testimonial-slide',
     initialIndex: 0,
-    prevNextButtons: false,
-    setGallerySize: false,
+    setGallerySize: true,
     wrapAround: true,
     accessibility: true,
     cellAlign: 'left',
@@ -52,6 +51,7 @@ flkty = new Flickity(carousel, {
     selectedAttraction: 0.2,
     friction: 0.8,
     autoPlay: 6000,
+    fade: true,
 });
 
 
