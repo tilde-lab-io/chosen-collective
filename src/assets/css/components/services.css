@@ -37,14 +37,17 @@ Usage: codyhouse.co/license
     text-decoration: none;
     transition: 0.2s;
 }
+
 .card-v8 img {
     display: block;
     width: 100%;
 }
+
 .card-v8:hover {
     background-color: var(--color-bg-light);
     box-shadow: var(--shadow-md);
 }
+
 .card-v8:hover .card-v8__title {
     background-size: 100% 100%;
 }

@@ -166,7 +166,6 @@
 }
 
 
-
 /* HEADER */
 :root {
     --f-header-height: 70px;
@@ -533,27 +532,12 @@ html {
     opacity: 1;
 }
 
-/* -------------------------------- 
-
-File#: _1_newsletter
-Title: Newsletter 
-Descr: Newsletter form template
-Usage: codyhouse.co/license
-
--------------------------------- */
+/* FOOTER */
 .newsletter {
     position: relative;
     z-index: 1;
 }
 
-/* -------------------------------- 
-
-File#: _1_socials
-Title: Socials
-Descr: Section with links to social media accounts
-Usage: codyhouse.co/license
-
--------------------------------- */
 .socials__btns a {
     --size: 2.5em;
     width: var(--size);
@@ -565,27 +549,23 @@ Usage: codyhouse.co/license
     background-color: var(--color-contrast-high);
     transition: 0.3s;
 }
+
 .socials__btns a .icon {
     font-size: 1.25em; /* icon size */
     color: var(--color-bg); /* icon color */
     transition: color 0.3s, transform 0.3s var(--ease-out-back);
 }
+
 .socials__btns a:hover {
     background-color: var(--color-primary);
 }
+
 .socials__btns a:hover .icon {
     transform: scale(1.2);
     color: var(--color-white);
 }
 
-/* -------------------------------- 
 
-File#: _1_main-footer-v2
-Title: Main Footer v2
-Descr: Footer navigation template
-Usage: codyhouse.co/license
-
--------------------------------- */
 .footer-v2 {
     position: relative;
     z-index: 1;
@@ -596,11 +576,13 @@ Usage: codyhouse.co/license
     grid-template-columns: 1fr;
     gap: var(--space-lg);
 }
+
 @media (min-width: 32rem) {
     .footer-v2__list {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media (min-width: 64rem) {
     .footer-v2__list {
         grid-template-columns: repeat(4, 1fr);
@@ -612,6 +594,7 @@ Usage: codyhouse.co/license
     gap: var(--space-sm);
     align-content: start;
 }
+
 @media (min-width: 64rem) {
     .footer-v2__item {
         gap: var(--space-xs);
@@ -621,34 +604,15 @@ Usage: codyhouse.co/license
 .footer-v2__item a {
     color: var(--color-contrast-medium);
 }
+
 .footer-v2__item a:hover {
     color: var(--color-contrast-high);
 }
+
 @media (min-width: 64rem) {
     .footer-v2__item a {
         font-size: var(--text-sm);
     }
-}
-
-.footer-v2__socials {
-    display: flex;
-    justify-content: center;
-    margin-bottom: var(--space-sm);
-}
-.footer-v2__socials a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 var(--space-3xs);
-    color: var(--color-contrast-medium);
-}
-.footer-v2__socials a:hover {
-    color: var(--color-contrast-high);
-}
-.footer-v2__socials a svg {
-    display: block;
-    width: 1em;
-    height: 1em;
-    color: inherit;
 }
 
 .footer-v2__print {
@@ -656,15 +620,19 @@ Usage: codyhouse.co/license
     color: var(--color-contrast-medium);
     text-align: center;
 }
+
 .footer-v2__print p {
     margin-bottom: var(--space-sm);
 }
+
 .footer-v2__print a {
     color: inherit;
 }
+
 .footer-v2__print a:hover {
     color: var(--color-contrast-high);
 }
+
 @media (min-width: 64rem) {
     .footer-v2__print {
         font-size: var(--text-xs);

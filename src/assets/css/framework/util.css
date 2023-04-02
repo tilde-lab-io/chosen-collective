@@ -462,6 +462,12 @@
     align-items: stretch;
 }
 
+/* flex gap */
+
+.flex-gap-sm {
+
+}
+
 /* align-content */
 .content-start {
     align-content: start;

@@ -1,4 +1,4 @@
-﻿/* reset */
+/* reset */
 @import 'framework/reset.css';
 @import 'framework/config.css';
 
@@ -19,16 +19,27 @@
 
 /* utilities */
 @import 'framework/util.css';
+
+/* libraries */
 @import 'tools/flickity.css';
 @import 'tools/animate.css';
 @import 'tools/hover.css';
 @import 'tools/aos.css';
 
 
+:root {
+    --breakpoint-xs: 32rem; /* ~512px  */
+    --breakpoint-sm: 48rem; /* ~768px  */
+    --breakpoint-md: 64rem; /* ~1024px */
+    --breakpoint-lg: 80rem; /* ~1280px */
+    --breakpoint-xl: 90rem; /* ~1440px */
+}
+
 /* smaller, dark, rounded square */
 .flickity-button {
     background: var(--color-primary-light);
 }
+
 .flickity-button:hover {
     background: var(--color-primary-lighter);
 }
@@ -37,24 +48,25 @@
     width: 100%;
 }
 
-
 .flickity-prev-next-button {
     width: 40px;
     height: 40px;
     border-radius: 5px;
     transform: none;
     bottom: 0;
-    
 }
+
 /* icon color */
 .flickity-button-icon {
     fill: white;
 }
+
 /* position outside */
 .flickity-prev-next-button.previous {
     top: 97%;
     left: 35%;
 }
+
 .flickity-prev-next-button.next {
     top: 97%;
     right: 35%;
@@ -62,4 +74,10 @@
 
 .flickity-page-dots {
     bottom: -50px;
+}
+
+@media (min-width: var(--breakpoint-md)) {
+    .flickity-prev-next-button {
+        width: 60px;
+    }
 }

@@ -1649,26 +1649,11 @@ html {
     visibility: visible;
     opacity: 1;
 }
-/* -------------------------------- 
-
-File#: _1_newsletter
-Title: Newsletter 
-Descr: Newsletter form template
-Usage: codyhouse.co/license
-
--------------------------------- */
+/* FOOTER */
 .newsletter {
     position: relative;
     z-index: 1;
 }
-/* -------------------------------- 
-
-File#: _1_socials
-Title: Socials
-Descr: Section with links to social media accounts
-Usage: codyhouse.co/license
-
--------------------------------- */
 .socials__btns a {
     --size: 2.5em;
     width: var(--size);
@@ -1692,14 +1677,6 @@ Usage: codyhouse.co/license
     transform: scale(1.2);
     color: var(--color-white);
 }
-/* -------------------------------- 
-
-File#: _1_main-footer-v2
-Title: Main Footer v2
-Descr: Footer navigation template
-Usage: codyhouse.co/license
-
--------------------------------- */
 .footer-v2 {
     position: relative;
     z-index: 1;
@@ -1740,26 +1717,6 @@ Usage: codyhouse.co/license
         font-size: var(--text-sm);
     }
 }
-.footer-v2__socials {
-    display: flex;
-    justify-content: center;
-    margin-bottom: var(--space-sm);
-}
-.footer-v2__socials a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 var(--space-3xs);
-    color: var(--color-contrast-medium);
-}
-.footer-v2__socials a:hover {
-    color: var(--color-contrast-high);
-}
-.footer-v2__socials a svg {
-    display: block;
-    width: 1em;
-    height: 1em;
-    color: inherit;
-}
 .footer-v2__print {
     font-size: var(--text-sm);
     color: var(--color-contrast-medium);
@@ -1780,7 +1737,7 @@ Usage: codyhouse.co/license
     }
 }
 .about-intro {
-    
+
 }
 :root {
     --breakpoint-xs: 32rem; /* ~512px  */
@@ -3699,6 +3656,10 @@ Usage: codyhouse.co/license
 }
 .items-stretch {
     align-items: stretch;
+}
+/* flex gap */
+.flex-gap-sm {
+
 }
 /* align-content */
 .content-start {
@@ -17165,6 +17126,7 @@ Usage: codyhouse.co/license
         display: none !important;
     }
 }
+/* libraries */
 /*! Flickity v2.3.0
 https://flickity.metafizzy.co
 ---------------------------------------------- */
@@ -25605,6 +25567,13 @@ https://flickity.metafizzy.co
 [data-aos=flip-down].aos-animate {
     transform: perspective(2500px) rotateX(0)
 }
+:root {
+    --breakpoint-xs: 32rem; /* ~512px  */
+    --breakpoint-sm: 48rem; /* ~768px  */
+    --breakpoint-md: 64rem; /* ~1024px */
+    --breakpoint-lg: 80rem; /* ~1280px */
+    --breakpoint-xl: 90rem; /* ~1440px */
+}
 /* smaller, dark, rounded square */
 .flickity-button {
     background: var(--color-primary-light);
@@ -25621,7 +25590,6 @@ https://flickity.metafizzy.co
     border-radius: 5px;
     transform: none;
     bottom: 0;
-    
 }
 /* icon color */
 .flickity-button-icon {
@@ -25638,4 +25606,9 @@ https://flickity.metafizzy.co
 }
 .flickity-page-dots {
     bottom: -50px;
+}
+@media (min-width: var(--breakpoint-md)) {
+    .flickity-prev-next-button {
+        width: 60px;
+    }
 }

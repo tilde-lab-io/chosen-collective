@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="updates @index">
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="updates @index, begin footer prototype">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
@@ -9,16 +9,19 @@
       <change beforePath="$PROJECT_DIR$/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/donate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hhw-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/hhw-reservation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/reset-retreat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/config.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/util.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/js/components/_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/js/tools/flickity-fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/flickity-fade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/tools/isotope.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/isotope.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
@@ -31,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -72,25 +75,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\C Pyska\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\C Pyska\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\C Pyska\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\C Pyska\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\C Pyska\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\C Pyska\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -129,14 +132,7 @@
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
       <workItem from="1679862437018" duration="107946000" />
-      <workItem from="1680271229520" duration="26930000" />
-    </task>
-    <task id="LOCAL-00011" summary="layout text @index">
-      <created>1679697430278</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679697430278</updated>
+      <workItem from="1680271229520" duration="60287000" />
     </task>
     <task id="LOCAL-00012" summary="layout test @index">
       <created>1679697684366</created>
@@ -474,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680281254159</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="updates @index, begin footer prototype">
+      <created>1680355935743</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1680355935743</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +507,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Update @retreats, begin gallery bug fixes; cleaned files project-wide" />
     <MESSAGE value="bug fix @index, remove defer" />
     <MESSAGE value="update @reservations" />
     <MESSAGE value="update header" />
@@ -529,7 +531,8 @@
     <MESSAGE value="update @contact, add @sub-confirmation, @privacy-policy" />
     <MESSAGE value="updates @retreats" />
     <MESSAGE value="updates @index" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates @index" />
+    <MESSAGE value="updates @index, begin footer prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates @index, begin footer prototype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,12 +602,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <line>1210</line>
+          <line>1209</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/script.js</url>
-          <line>9347</line>
+          <line>9349</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
