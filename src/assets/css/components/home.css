@@ -546,7 +546,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-contrast-high);
+    background-color: var(--color-white);
     transition: 0.3s;
 }
 
@@ -555,16 +555,6 @@ html {
     color: var(--color-bg); /* icon color */
     transition: color 0.3s, transform 0.3s var(--ease-out-back);
 }
-
-.socials__btns a:hover {
-    background-color: var(--color-primary);
-}
-
-.socials__btns a:hover .icon {
-    transform: scale(1.2);
-    color: var(--color-white);
-}
-
 
 .footer-v2 {
     position: relative;

@@ -179,6 +179,8 @@
     --color-primary-l: 31%;
     --color-primary: hsl(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l));
 
+    --color-primary-light-hex: #916f2b;
+    --color-primary-light-hsl: hsl(40, 54%, 37%);
     --color-primary-light-h: 40;
     --color-primary-light-s: 54%;
     --color-primary-light-l: 37%;
@@ -241,12 +243,12 @@
     --color-bg30-lighter: hsl(var(--color-bg30-lighter-h), var(--color-bg30-lighter-s), var(--color-bg30-lighter-l));
 
     --color-bg70-darker-h: 72;
-    --color-bg70-darker-s: 22%;
+    --color-bg70-darker-s: 36%;
     --color-bg70-darker-l: 44%;
     --color-bg70-darker: hsl(var(--color-bg70-darker-h), var(--color-bg70-darker-s), var(--color-bg70-darker-l));
 
     --color-bg70-dark-h: 73;
-    --color-bg70-dark-s: 22%;
+    --color-bg70-dark-s: 32%;
     --color-bg70-dark-l: 50%;
     --color-bg70-dark: hsl(var(--color-bg70-dark-h), var(--color-bg70-dark-s), var(--color-bg70-dark-l));
 

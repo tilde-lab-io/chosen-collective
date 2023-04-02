@@ -35,15 +35,6 @@
     --breakpoint-xl: 90rem; /* ~1440px */
 }
 
-/* smaller, dark, rounded square */
-.flickity-button {
-    background: var(--color-primary-light);
-}
-
-.flickity-button:hover {
-    background: var(--color-primary-lighter);
-}
-
 .client-testimonials {
     width: 100%;
 }
@@ -53,7 +44,6 @@
     height: 40px;
     border-radius: 5px;
     transform: none;
-    bottom: 0;
 }
 
 /* icon color */
@@ -76,8 +66,28 @@
     bottom: -50px;
 }
 
-@media (min-width: var(--breakpoint-md)) {
+/* smaller, dark, rounded square */
+.flickity-button {
+    background: var(--color-primary-light);
+}
+
+.flickity-button:hover {
+    background: var(--color-primary-lighter);
+}
+
+@media (min-width: 64rem) {
     .flickity-prev-next-button {
         width: 60px;
+    }
+
+    /* position outside */
+    .flickity-prev-next-button.previous {
+        top: 105%;
+        left: 35%;
+    }
+
+    .flickity-prev-next-button.next {
+        top: 105%;
+        right: 35%;
     }
 }

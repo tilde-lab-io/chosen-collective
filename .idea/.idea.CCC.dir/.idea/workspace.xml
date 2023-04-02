@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="updates @index, begin footer prototype">
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="site-wide updates">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddat-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/ddat-reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/donate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhw-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/hhw-reservation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/components/_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/components/_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/tools/flickity-fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/flickity-fade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/tools/isotope.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/tools/isotope.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/config.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/tools/hover.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/tools/hover.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,14 +121,7 @@
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
       <workItem from="1679862437018" duration="107946000" />
-      <workItem from="1680271229520" duration="60287000" />
-    </task>
-    <task id="LOCAL-00012" summary="layout test @index">
-      <created>1679697684366</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1679697684366</updated>
+      <workItem from="1680271229520" duration="75219000" />
     </task>
     <task id="LOCAL-00013" summary="layout update @index">
       <created>1679698972785</created>
@@ -477,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680355935743</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="site-wide updates">
+      <created>1680411596055</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1680411596056</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +509,6 @@
     <MESSAGE value="update @framework, update @index" />
     <MESSAGE value="update headers" />
     <MESSAGE value="remove headers" />
-    <MESSAGE value="site-wide updates" />
     <MESSAGE value="update @services, first pass" />
     <MESSAGE value="Spell check @services" />
     <MESSAGE value="update @services" />
@@ -532,7 +520,8 @@
     <MESSAGE value="updates @retreats" />
     <MESSAGE value="updates @index" />
     <MESSAGE value="updates @index, begin footer prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates @index, begin footer prototype" />
+    <MESSAGE value="site-wide updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="site-wide updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

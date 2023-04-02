@@ -222,6 +222,8 @@ img, video, svg {
     --color-primary-l: 31%;
     --color-primary: hsl(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l));
 
+    --color-primary-light-hex: #916f2b;
+    --color-primary-light-hsl: hsl(40, 54%, 37%);
     --color-primary-light-h: 40;
     --color-primary-light-s: 54%;
     --color-primary-light-l: 37%;
@@ -284,12 +286,12 @@ img, video, svg {
     --color-bg30-lighter: hsl(var(--color-bg30-lighter-h), var(--color-bg30-lighter-s), var(--color-bg30-lighter-l));
 
     --color-bg70-darker-h: 72;
-    --color-bg70-darker-s: 22%;
+    --color-bg70-darker-s: 36%;
     --color-bg70-darker-l: 44%;
     --color-bg70-darker: hsl(var(--color-bg70-darker-h), var(--color-bg70-darker-s), var(--color-bg70-darker-l));
 
     --color-bg70-dark-h: 73;
-    --color-bg70-dark-s: 22%;
+    --color-bg70-dark-s: 32%;
     --color-bg70-dark-l: 50%;
     --color-bg70-dark: hsl(var(--color-bg70-dark-h), var(--color-bg70-dark-s), var(--color-bg70-dark-l));
 
@@ -1662,20 +1664,13 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-contrast-high);
+    background-color: var(--color-white);
     transition: 0.3s;
 }
 .socials__btns a .icon {
     font-size: 1.25em; /* icon size */
     color: var(--color-bg); /* icon color */
     transition: color 0.3s, transform 0.3s var(--ease-out-back);
-}
-.socials__btns a:hover {
-    background-color: var(--color-primary);
-}
-.socials__btns a:hover .icon {
-    transform: scale(1.2);
-    color: var(--color-white);
 }
 .footer-v2 {
     position: relative;
@@ -22557,11 +22552,10 @@ https://flickity.metafizzy.co
 .hvr-shutter-out-horizontal {
     display: inline-block;
     vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    background: #e1e1e1;
+    background: var(--color-bg70);
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -22575,8 +22569,8 @@ https://flickity.metafizzy.co
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2098D1;
-    -webkit-transform: scaleX(0);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg70-darker);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
     transform-origin: 50%;
@@ -25574,13 +25568,6 @@ https://flickity.metafizzy.co
     --breakpoint-lg: 80rem; /* ~1280px */
     --breakpoint-xl: 90rem; /* ~1440px */
 }
-/* smaller, dark, rounded square */
-.flickity-button {
-    background: var(--color-primary-light);
-}
-.flickity-button:hover {
-    background: var(--color-primary-lighter);
-}
 .client-testimonials {
     width: 100%;
 }
@@ -25589,7 +25576,6 @@ https://flickity.metafizzy.co
     height: 40px;
     border-radius: 5px;
     transform: none;
-    bottom: 0;
 }
 /* icon color */
 .flickity-button-icon {
@@ -25607,8 +25593,26 @@ https://flickity.metafizzy.co
 .flickity-page-dots {
     bottom: -50px;
 }
-@media (min-width: var(--breakpoint-md)) {
+/* smaller, dark, rounded square */
+.flickity-button {
+    background: var(--color-primary-light);
+}
+.flickity-button:hover {
+    background: var(--color-primary-lighter);
+}
+@media (min-width: 64rem) {
     .flickity-prev-next-button {
         width: 60px;
+    }
+
+    /* position outside */
+    .flickity-prev-next-button.previous {
+        top: 105%;
+        left: 35%;
+    }
+
+    .flickity-prev-next-button.next {
+        top: 105%;
+        right: 35%;
     }
 }
