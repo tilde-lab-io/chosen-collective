@@ -96,7 +96,7 @@
       </ul>
       
       <div class="f-header__list flex-grow flex-basis-0 justify-end@md">
-        <a class="btn hvr-shutter-out-horizontal margin-top-md margin-top-0@sm padding-y-2xs padding-x-md bg-bg70 color-white"
+        <a class="btn hvr-shutter-out-horizontal margin-top-md margin-top-0@sm padding-y-3xs padding-x-lg bg-bg70-darker color-white font-bold letter-spacing-lg font-smooth"
            href="donate.html">Donate</a>
       </div>
     </div>
@@ -106,8 +106,9 @@
 <main>
   <div class="bg-primary-light bg-opacity-10% position-relative padding-y-xl">
     <div class="container max-width-adaptive-lg">
-      <h2 class="color-primary-light text-center margin-bottom-xl">Have a question or interested in working with
-        us? </h2>
+      <h1 class="color-primary-light text-center text-xl margin-bottom-xl">
+        Have a question or interested in working with us? 
+      </h1>
       <div class="bg inner-glow shadow-xs radius-md overflow-hidden">
         <div class="grid">
           <figure class="height-3xl height-auto@md col-5@md">
@@ -121,20 +122,26 @@
                   enctype="multipart/form-data"
                   id="ccc-contact"
                   method="POST"
-                  target="_blank"
-            >
+                  target="_blank">
+              
               <fieldset>
-                <legend class="form-legend">Please submit the following information:</legend>
+                <legend>
+                  <h2 class="text-md margin-bottom-md">Please submit the following information:</h2>
+                </legend>
   
-                <div class="margin-bottom-xs">
-                  <label class="" for="first-name">Name:</label>
-                  <input class="width-100% form-control" aria-required="true" id="first-name" name="first-name" required type="text">
-                </div>
-                
-                <div class="margin-bottom-xs">
-                  <label class="" for="last-name">Name:</label>
-                  <input class="width-100% form-control" aria-required="true" id="last-name" name="last-name" required type="text">
-                </div>
+                <fieldset class="flex flex-column flex-row@sm gap-md">
+                  <div class="margin-bottom-xs">
+                    <label class="" for="first-name">First Name:</label>
+                    <input class="width-100% form-control" aria-required="true" id="first-name" name="first-name"
+                           required type="text">
+                  </div>
+    
+                  <div class="margin-bottom-xs">
+                    <label class="" for="last-name">Last Name:</label>
+                    <input class="width-100% form-control" aria-required="true" id="last-name" name="last-name" required
+                           type="text">
+                  </div>
+                </fieldset>
       
                 <div class="margin-bottom-xs">
                   <label class="" for="title">Title:</label>
@@ -178,8 +185,9 @@
                   </p>
                 </div>
               </fieldset>
+              
               <div>
-                <button class="btn hvr-shutter-out-horizontal padding-x-md padding-y-sm" type="submit">Submit</button>
+                <button class="btn hvr-shutter-out-horizontal padding-x-lg padding-y-xs color-white text-lg font-semibold" type="submit" value="submit">Submit</button>
               </div>
             </form>
           </div>

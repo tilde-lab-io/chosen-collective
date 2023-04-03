@@ -253,6 +253,7 @@
     --color-bg70-dark-l: 50%;
     --color-bg70-dark: hsl(var(--color-bg70-dark-h), var(--color-bg70-dark-s), var(--color-bg70-dark-l));
 
+    --color-bg70-hex: #9ead67;
     --color-bg70-hsl: hsl(73, 30%, 54%);
     --color-bg70-h: 73;
     --color-bg70-s: 30%;
