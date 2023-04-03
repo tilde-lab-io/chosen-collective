@@ -27,7 +27,7 @@ mark {
     color: inherit;
 }
 
-button, input, textarea, select, .reset {
+button, input, textarea, .reset {
     background-color: transparent;
     border-radius: 0;
     color: inherit;

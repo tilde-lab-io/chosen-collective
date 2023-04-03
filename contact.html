@@ -96,7 +96,8 @@
       </ul>
       
       <div class="f-header__list flex-grow flex-basis-0 justify-end@md">
-        <a class="btn padding-y-2xs padding-x-md bg-bg70 color-white" href="donate.html">Donate</a>
+        <a class="btn hvr-shutter-out-horizontal margin-top-md margin-top-0@sm padding-y-2xs padding-x-md bg-bg70 color-white"
+           href="donate.html">Donate</a>
       </div>
     </div>
   </div>
@@ -111,59 +112,75 @@
         <div class="grid">
           <figure class="height-3xl height-auto@md col-5@md">
             <img class="height-100% width-100% object-cover"
-                 src="https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Stock_Images/trans-man-at-a-business-meeting-drs-producoes.webp?updatedAt=1678845296910">
+                 src="https://ik.imagekit.io/Tlio/Chosen_Collective_Consulting/Stock_Images/trans-man-at-a-business-meeting-drs-producoes.webp?updatedAt=1678845296910" alt="">
           </figure>
-          
           <div class="padding-md col-6@md">
-            <form action="https://usebasin.com/f/f49baf89099c"
-                  class="margin-auto@md"
+            <form action="https://usebasin.com/f/cb97d54653d0"
+                  class="ccc-contact margin-auto@md"
                   enctype="multipart/form-data"
-                  id="form"
-                  method="POST">
+                  id="ccc-contact"
+                  method="POST"
+                  target="_blank"
+            >
               
-              <fieldset class="margin-bottom-md">
+              <fieldset>
                 <legend class="form-legend">Please submit the following information:</legend>
-                
+  
+                <fieldset>
+                  <label class="form-label" for="category">Which service are you interested in?</label>
+                  <select class="flex flex-column width-100%" id="category" name="category" form="ccc-contact" required aria-required="true">
+                    <option value="">Select</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Support">Support</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </fieldset>
+  
+  
                 <div class="margin-bottom-xs">
-                  <div class="grid gap-xs">
-                    <div class="col-6@md">
-                      <label class="form-label margin-bottom-2xs" for="firstName">First
-                        Name</label>
-                      <input class="form-control width-100%" id="firstName" name="firstName"
-                             required type="text">
-                    </div>
-                    
-                    <div class="col-6@md">
-                      <label class="form-label margin-bottom-2xs" for="lastName">Last Name</label>
-                      <input class="form-control width-100%" id="lastName" name="lastName"
-                             type="text">
-                    </div>
-                  </div>
+                  <label class="" for="first-name">Name:</label>
+                  <input class="width-100% form-control" aria-required="true" id="first-name" name="first-name" required type="text">
                 </div>
                 
                 <div class="margin-bottom-xs">
-                  <label class="form-label margin-bottom-2xs" for="inputEmail">Email</label>
-                  <input class="form-control width-100%" id="inputEmail" name="inputEmail"
-                         placeholder="email@myemail.com"
-                         type="email">
+                  <label class="" for="last-name">Name:</label>
+                  <input class="width-100% form-control" aria-required="true" id="last-name" name="last-name" required type="text">
                 </div>
-                
+      
+                <div class="margin-bottom-xs">
+                  <label class="" for="title">Title:</label>
+                  <input class="width-100% form-control" type="text" id="title" name="title" required aria-required="true">
+                </div>
+      
+                <div class="margin-bottom-xs">
+                  <label class="" for="company">Company:</label>
+                  <input class="width-100% form-control" type="text" id="company" name="company" required aria-required="true">
+                </div>
+      
+                <div class="margin-bottom-xs">
+                  <label class="" for="telephone">Telephone number:</label>
+                  <input class="width-100% form-control" type="tel" id="telephone" name="telephone" required aria-required="true">
+                </div>
+      
+                <div class="margin-bottom-xs">
+                  <label class="" for="email">Email:</label>
+                  <input class="width-100% form-control" type="email" id="email" name="email" required aria-required="true">
+                </div>
+              </fieldset>
+
+              <fieldset class="margin-bottom-sm">
                 <div>
-                  <label class="form-label margin-bottom-2xs" for="textarea">Textarea</label>
-                  <textarea class="form-control width-100%" id="textarea" name="textarea"></textarea>
-                  <p class="text-xs color-contrast-medium margin-top-2xs">
-                    Use helper text to provide additional information
+                  <label class="" for="message">Message:</label>
+                  <textarea class="bg-dark shadow-ring width-100%" id="message" name="message" cols="50" rows="10" required aria-required="true"></textarea>
+                  <p class="text-sm color-contrast-medium">
+                    You can find our privacy policy <a href="privacy-policy.html" class="link">here</a>
                   </p>
                 </div>
               </fieldset>
-              
-              <fieldset class="margin-bottom-md">
-                <div class="text-right padding-top-sm">
-                  <button class="btn hvr-shutter-out-horizontal color-white" type="submit" formtarget="_blank">Submit</button>
-                </div>
-              </fieldset>
-              
-              
+              <div>
+                <button class="btn hvr-shutter-out-horizontal padding-x-md padding-y-sm" type="submit">Submit</button>
+              </div>
             </form>
           </div>
         </div>
@@ -188,7 +205,11 @@
           <p>Receive a monthly recap of our latest news, resources, and community events</p>
         </div>
         
-        <form class="flex flex-column flex-row@sm gap-y-sm gap-x-sm justify-center">
+        <form action="https://usebasin.com/f/026f653fc489"
+              method="POST"
+              enctype="multipart/form-data"
+              id="newsletter-form"
+              class="flex flex-column flex-row@sm gap-y-sm gap-x-sm justify-center">
           <label for="newsletter-name" class="">
             <input id="newsletter-name" class="form-control width-100% height-100%" aria-label="Name" type="text" placeholder=" Name">
           </label>

@@ -1,8 +1,8 @@
 ﻿:root {
-    --form-control-font-size: var(--text-sm);
+/*    --form-control-font-size: var(--text-sm);
     --form-control-padding-x: var(--space-xs);
     --form-control-padding-y: var(--space-2xs);
-    --form-control-radius: 0.5rem;
+    --form-control-radius: 0.5rem;*/
 }
 
 .form-control {
@@ -12,7 +12,6 @@
     text-transform: lowercase;
     text-decoration: none;
     line-height: 1.2;
-    @include fontSmooth;
     box-shadow: inset 0px 0px 0px 1px var(--color-contrast-lower);
     outline: none;
     transition: all 0.2s ease;

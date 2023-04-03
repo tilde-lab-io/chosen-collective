@@ -6,6 +6,8 @@
 
 //@prepros-prepend ./components/_services.js
 
+//@prepros-prepend ./components/contact.js
+
 //@prepros-prepend ./components/_reset-retreat.js
 
 //@prepros-prepend ./components/_reservations.js

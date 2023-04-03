@@ -180,6 +180,7 @@
     --color-primary: hsl(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l));
 
     --color-primary-light-hex: #916f2b;
+    --color-primary-light-rgb: rgb(145, 111, 43);
     --color-primary-light-hsl: hsl(40, 54%, 37%);
     --color-primary-light-h: 40;
     --color-primary-light-s: 54%;
