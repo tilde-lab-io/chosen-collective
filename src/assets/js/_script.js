@@ -71,9 +71,9 @@ AOS.init({
     delay: 100,
     once: true,
     mirror: false,
-    disable: function () {
+/*    disable: function () {
         let maxWidth = 1024;
         return window.innerWidth < maxWidth;
-    },
+    },*/
 });
 
