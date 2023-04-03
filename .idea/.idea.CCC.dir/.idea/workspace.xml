@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="site-wide updates">
-      <change afterPath="$PROJECT_DIR$/src/assets/js/components/contact.js" afterDir="false" />
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="updates @contact">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/config.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/config.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/framework/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/framework/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +44,6 @@
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Chosen Collective(6).zip/style-guide/src/style-2.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp2_Chosen Collective(6).zip/style-guide/src/style-3.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,14 +115,7 @@
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
       <workItem from="1679862437018" duration="107946000" />
-      <workItem from="1680271229520" duration="92956000" />
-    </task>
-    <task id="LOCAL-00014" summary="layout update @index">
-      <created>1679698986263</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1679698986263</updated>
+      <workItem from="1680271229520" duration="96141000" />
     </task>
     <task id="LOCAL-00015" summary="update layout @index">
       <created>1679699947737</created>
@@ -470,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680455968366</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="updates @contact">
+      <created>1680491985484</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1680491985484</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +490,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="bug fix @index, remove defer" />
     <MESSAGE value="update @reservations" />
     <MESSAGE value="update header" />
     <MESSAGE value="bug fix" />
@@ -525,7 +514,8 @@
     <MESSAGE value="updates @index" />
     <MESSAGE value="updates @index, begin footer prototype" />
     <MESSAGE value="site-wide updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="site-wide updates" />
+    <MESSAGE value="updates @contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates @contact" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
