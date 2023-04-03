@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="updates @index">
+    <list default="true" id="8ad22521-9208-4329-ae65-734335aee8cb" name="Changes" comment="update @index">
+      <change afterPath="$PROJECT_DIR$/accessibility-guide.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CCC.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-retreats.html" beforeDir="false" afterPath="$PROJECT_DIR$/reset-retreats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -114,14 +117,7 @@
       <workItem from="1679791935105" duration="13085000" />
       <workItem from="1679845082641" duration="13754000" />
       <workItem from="1679862437018" duration="107946000" />
-      <workItem from="1680271229520" duration="100885000" />
-    </task>
-    <task id="LOCAL-00017" summary="add autoplay to testimonials @index">
-      <created>1679706742741</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1679706742741</updated>
+      <workItem from="1680271229520" duration="106186000" />
     </task>
     <task id="LOCAL-00018" summary="updates @retreats">
       <created>1679731809150</created>
@@ -459,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680497875098</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="update @index">
+      <created>1680529199624</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1680529199624</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +497,6 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="activated feedback widget" />
     <MESSAGE value="remove feedback widget" />
-    <MESSAGE value="update @index" />
     <MESSAGE value="update @index&#10;&#10;Signed-off-by: tayallendev &lt;96593039+tayallendev@users.noreply.github.com&gt;" />
     <MESSAGE value="bug fix to gallery and testimonials" />
     <MESSAGE value="update css" />
@@ -514,7 +516,8 @@
     <MESSAGE value="site-wide updates" />
     <MESSAGE value="updates @contact" />
     <MESSAGE value="updates @index" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates @index" />
+    <MESSAGE value="update @index" />
+    <option name="LAST_COMMIT_MESSAGE" value="update @index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
